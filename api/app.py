@@ -6,7 +6,7 @@ app = Flask(__name__)
 def home():
     return render_template('index.html')
 
-@app.route('/detection', method=['GET', 'POST'])
+@app.route('/detection')
 def detection():
     # if request.method == 'POST':
     #     # do stuff when the form is submitted
