@@ -14,16 +14,45 @@
 		<noscript><link rel="stylesheet" href="static/static/assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
+		<h3 style="padding-left:1%"><a href="{{ url_for('home') }}">AccessLens</a></h3>
 
 		<!-- Wrapper -->
+		
 			<div id="wrapper" class="divided">
+				
+
+				<!-- <div class="header">
+					<h3>Objects with possible barriers</h3>
+
+					<img class="detected-object" onclick="update_suggestion(this.name);" name="object1" src="static/assets/images-object/object.png">
+					<img class="detected-object" onclick="update_suggestion(this.name);" name="object1" src="static/assets/images-object/object.png">
+					<img class="detected-object" onclick="update_suggestion(this.name);" name="object1" src="static/assets/images-object/object.png">
+					<img class="detected-object" onclick="update_suggestion(this.name);" name="object1" src="static/assets/images-object/object.png">
+					<img class="detected-object" onclick="update_suggestion(this.name);" name="object1" src="static/assets/images-object/object.png">
+					
+		
+				</div> -->
 				<!-- <h2>Barrier detected</h2> -->
 				<!-- <a href="{{ url_for('home') }}" style="align-self:right"><h2>Home</h2></a> -->
 				<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+					
 					<div class="content">
+
+						<div id="suggestion-title">
+							<h3>Click object image to view 3D augmentations</h3>
+						</div>
+						<div id="suggestion" style="overflow:auto;height:70vh"></div>
+						
+					</div>
+					
+					<div class="content">
+						<!-- <h3>Objects with possible barriers</h3> -->
+						Click to enlarge the image
+						<img id="myImg" src="static/assets/images/kitchen_3_gt.jpg" alt="Full image" style="width:100%"/>          
+						<hr>
+						
+				
 						<h3>Objects with possible barriers</h3>
-						
-						
 						<div class="detection" style="height:30%">
 							<img class="detected-object" onclick="update_suggestion(this.name);" name="object1" src="static/assets/images-object/object.png">
 							<img class="detected-object" onclick="update_suggestion(this.name);" name="object1" src="static/assets/images-object/object.png">
@@ -32,26 +61,13 @@
 							<img class="detected-object" onclick="update_suggestion(this.name);" name="object1" src="static/assets/images-object/object.png">
 							
 						</div>
-
-						<hr>
-
-						<div id="suggestion-title">
-							<h3>Click an object image above to view 3D augmentations</h3>
-						</div>
-						
-						
-						<div id="suggestion" style="background-color:gray;height:80%">
 							
-						</div>
 
 
 					</div>
-					<div class="image">
+					
 
-						<img id="myImg" src="static/assets/images/kitchen_3_gt.jpg" alt="Full image"/>          
-						
-					</div>
-
+			
 					
 					
 				</section>
