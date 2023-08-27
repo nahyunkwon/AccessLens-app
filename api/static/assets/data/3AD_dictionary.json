@@ -1,0 +1,651 @@
+{
+    "handle__lever": {
+        "actuation-operation": [
+            "https://www.thingiverse.com/thing:4225872"
+        ],
+        "actuation-reach": [],
+        "constraint": [
+            "https://www.thingiverse.com/thing:4192643"
+        ],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "door": {
+        "actuation-operation": [
+            "https://www.thingiverse.com/thing:1228617",
+            "https://www.thingiverse.com/thing:976006"
+        ],
+        "actuation-reach": [],
+        "constraint": [
+            "https://www.thingiverse.com/thing:200571",
+            "https://www.thingiverse.com/thing:891278",
+            "https://www.thingiverse.com/thing:4734183"
+        ],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "knob__rotate_round": {
+        "actuation-operation": [
+            "https://www.thingiverse.com/thing:1094505",
+            "https://www.thingiverse.com/thing:1095439"
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "cabinet": {
+        "actuation-operation": [
+            "https://www.thingiverse.com/thing:1228617",
+            "https://www.thingiverse.com/thing:976006"
+        ],
+        "actuation-reach": [],
+        "constraint": [
+            "https://www.thingiverse.com/thing:28037"
+        ],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "cupboard": {
+        "actuation-operation": [],
+        "actuation-reach": [],
+        "constraint": [
+            "https://www.thingiverse.com/thing:28037"
+        ],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "drawer": {
+        "actuation-operation": [
+            "https://www.thingiverse.com/thing:1228617",
+            "https://www.thingiverse.com/thing:976006"
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "knob__static": {
+        "actuation-operation": [],
+        "actuation-reach": [],
+        "constraint": [
+            "https://www.thingiverse.com/thing:2320880",
+            "https://www.thingiverse.com/thing:2365101",
+            "https://www.thingiverse.com/thing:36650"
+        ],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "jar": {
+        "actuation-operation": [
+            "https://www.thingiverse.com/thing:3198907",
+            "https://www.thingiverse.com/thing:4877138"
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "milk_pack": {
+        "actuation-operation": [
+            "https://www.thingiverse.com/thing:3303124"
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "bottle_spray": {
+        "actuation-operation": [
+            "https://www.thingiverse.com/thing:2240803"
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "bottle_metal_cap": {
+        "actuation-operation": [
+            "https://www.thingiverse.com/thing:269463",
+            "https://www.thingiverse.com/thing:132632"
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "bottle_plastic": {
+        "actuation-operation": [
+            "https://www.thingiverse.com/thing:2801157",
+            "https://www.thingiverse.com/thing:1632743",
+            "https://www.thingiverse.com/thing:4841019",
+            "https://www.thingiverse.com/thing:3456941",
+            "https://www.thingiverse.com/thing:711671"
+        ],
+        "actuation-reach": [
+            "https://www.thingiverse.com/thing:2849877"
+        ],
+        "constraint": [
+            "https://www.thingiverse.com/thing:2707972"
+        ],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "can": {
+        "actuation-operation": [
+            "https://www.thingiverse.com/thing:3043598",
+            "https://www.thingiverse.com/thing:1097099",
+            "https://www.thingiverse.com/thing:2457756",
+            "https://www.thingiverse.com/thing:5195705",
+            "https://www.thingiverse.com/thing:4081042",
+            "https://www.thingiverse.com/thing:1074847",
+            "https://www.thingiverse.com/thing:4056925",
+            "https://www.thingiverse.com/thing:4835690",
+            "https://www.thingiverse.com/thing:2960194",
+            "https://www.thingiverse.com/thing:1104936",
+            "https://www.thingiverse.com/thing:4080120"
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "bottle_pump": {
+        "actuation-operation": [
+            "https://www.thingiverse.com/thing:4223780"
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "bottle_plasiic": {
+        "actuation-operation": [
+            "https://www.thingiverse.com/thing:1097099"
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "bottle_pull_top": {
+        "actuation-operation": [
+            "https://www.thingiverse.com/thing:3581044"
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "cup_no_handle": {
+        "actuation-operation": [
+            "https://www.thingiverse.com/thing:310961",
+            "https://www.thingiverse.com/thing:2849803",
+            "https://www.thingiverse.com/thing:4268140",
+            "https://www.thingiverse.com/thing:1055594",
+            "https://www.thingiverse.com/thing:1102780",
+            "https://www.thingiverse.com/thing:3022034"
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "bowl": {
+        "actuation-operation": [
+            "https://www.thingiverse.com/thing:2968238"
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "chopsticks": {
+        "actuation-operation": [
+            "https://www.thingiverse.com/thing:1024981"
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "switch__toggle_multi": {
+        "actuation-operation": [
+            "https://www.thingiverse.com/thing:5143727",
+            "https://www.thingiverse.com/thing:653451",
+            "https://www.thingiverse.com/thing:1215328"
+        ],
+        "actuation-reach": [
+            "https://www.thingiverse.com/thing:658859"
+        ],
+        "constraint": [
+            "https://www.thingiverse.com/thing:134995",
+            "https://www.thingiverse.com/thing:4928263",
+            "https://www.thingiverse.com/thing:5222995",
+            "https://www.thingiverse.com/thing:2274280",
+            "https://www.thingiverse.com/thing:69806"
+        ],
+        "indication-visual": [
+            "https://www.thingiverse.com/thing:4924800"
+        ],
+        "indication-tactile": [
+            "https://www.thingiverse.com/thing:4924800"
+        ]
+    },
+    "switch__toggle_single": {
+        "actuation-operation": [
+            "https://www.thingiverse.com/thing:3783279",
+            "https://www.thingiverse.com/thing:1904518",
+            "https://www.thingiverse.com/thing:649284",
+            "https://www.thingiverse.com/thing:5143727",
+            "https://www.thingiverse.com/thing:653451",
+            "https://www.thingiverse.com/thing:1215328"
+        ],
+        "actuation-reach": [
+            "https://www.thingiverse.com/thing:658859",
+            "https://www.thingiverse.com/thing:1805790"
+        ],
+        "constraint": [
+            "https://www.thingiverse.com/thing:134995",
+            "https://www.thingiverse.com/thing:4928263",
+            "https://www.thingiverse.com/thing:5222995",
+            "https://www.thingiverse.com/thing:2274280",
+            "https://www.thingiverse.com/thing:69806"
+        ],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "switch__rocker_single": {
+        "actuation-operation": [],
+        "actuation-reach": [],
+        "constraint": [
+            "https://www.thingiverse.com/thing:3061443",
+            "https://www.thingiverse.com/thing:2385820",
+            "https://www.thingiverse.com/thing:4944728"
+        ],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "switch__rocker_multi": {
+        "actuation-operation": [],
+        "actuation-reach": [],
+        "constraint": [
+            "https://www.thingiverse.com/thing:2385820",
+            "https://www.thingiverse.com/thing:4944728"
+        ],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "electric_outlet__electric_outlet": {
+        "actuation-operation": [],
+        "actuation-reach": [],
+        "constraint": [
+            "https://www.thingiverse.com/thing:272419",
+            "https://www.thingiverse.com/thing:2987347",
+            "https://www.thingiverse.com/thing:2719252",
+            "https://www.thingiverse.com/thing:4658970",
+            "https://www.thingiverse.com/thing:4088052",
+            "https://www.thingiverse.com/thing:5444424"
+        ],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "bag": {
+        "actuation-operation": [
+            "https://www.thingiverse.com/thing:26767",
+            "https://www.thingiverse.com/thing:597043",
+            "https://www.thingiverse.com/thing:3057298"
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "zipper": {
+        "actuation-operation": [
+            "https://www.thingiverse.com/thing:1103082"
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "smartphone": {
+        "actuation-operation": [
+            "https://www.thingiverse.com/thing:1319883",
+            "https://www.thingiverse.com/thing:3294279"
+        ],
+        "actuation-reach": [],
+        "constraint": [
+            "https://www.thingiverse.com/thing:4614448",
+            "https://www.thingiverse.com/thing:2120591",
+            "https://www.thingiverse.com/thing:2448971"
+        ],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "tablet": {
+        "actuation-operation": [
+            "https://www.thingiverse.com/thing:1319883",
+            "https://www.thingiverse.com/thing:3294279"
+        ],
+        "actuation-reach": [],
+        "constraint": [
+            "https://www.thingiverse.com/thing:4614448",
+            "https://www.thingiverse.com/thing:2120591",
+            "https://www.thingiverse.com/thing:2448971"
+        ],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "laptop": {
+        "actuation-operation": [],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": [
+            "https://www.thingiverse.com/thing:4074766",
+            "https://www.thingiverse.com/thing:3186386",
+            "https://www.thingiverse.com/thing:3619148"
+        ]
+    },
+    "keyboard": {
+        "actuation-operation": [],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": [
+            "https://www.thingiverse.com/thing:4074766",
+            "https://www.thingiverse.com/thing:3186386",
+            "https://www.thingiverse.com/thing:3619148"
+        ]
+    },
+    "toaster": {
+        "actuation-operation": [
+            "https://www.thingiverse.com/thing:932075"
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "pen": {
+        "actuation-operation": [
+            "https://www.thingiverse.com/thing:1748254",
+            "https://www.thingiverse.com/thing:2353621",
+            "https://www.thingiverse.com/thing:663865",
+            "https://www.thingiverse.com/thing:1104573",
+            "https://www.thingiverse.com/thing:2926643",
+            "https://www.thingiverse.com/thing:2801185",
+            "https://www.thingiverse.com/thing:2782274",
+            "https://www.thingiverse.com/thing:2257846",
+            "https://www.thingiverse.com/thing:1615967",
+            "https://www.thingiverse.com/thing:2228287",
+            "https://www.thingiverse.com/thing:2936984",
+            "https://www.thingiverse.com/thing:3236846",
+            "https://www.thingiverse.com/thing:4873185",
+            "https://www.thingiverse.com/thing:255326"
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "brush": {
+        "actuation-operation": [
+            "https://www.thingiverse.com/thing:1748254",
+            "https://www.thingiverse.com/thing:2353621",
+            "https://www.thingiverse.com/thing:663865",
+            "https://www.thingiverse.com/thing:1104573",
+            "https://www.thingiverse.com/thing:2926643",
+            "https://www.thingiverse.com/thing:2801185",
+            "https://www.thingiverse.com/thing:2782274",
+            "https://www.thingiverse.com/thing:2257846",
+            "https://www.thingiverse.com/thing:1615967",
+            "https://www.thingiverse.com/thing:2228287",
+            "https://www.thingiverse.com/thing:2936984",
+            "https://www.thingiverse.com/thing:3236846",
+            "https://www.thingiverse.com/thing:4873185",
+            "https://www.thingiverse.com/thing:255326"
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "pencil": {
+        "actuation-operation": [
+            "https://www.thingiverse.com/thing:1748254",
+            "https://www.thingiverse.com/thing:2353621",
+            "https://www.thingiverse.com/thing:663865",
+            "https://www.thingiverse.com/thing:1104573",
+            "https://www.thingiverse.com/thing:2926643",
+            "https://www.thingiverse.com/thing:2801185",
+            "https://www.thingiverse.com/thing:2782274",
+            "https://www.thingiverse.com/thing:2257846",
+            "https://www.thingiverse.com/thing:1615967",
+            "https://www.thingiverse.com/thing:2228287",
+            "https://www.thingiverse.com/thing:2936984",
+            "https://www.thingiverse.com/thing:3236846",
+            "https://www.thingiverse.com/thing:4873185",
+            "https://www.thingiverse.com/thing:255326"
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "fork": {
+        "actuation-operation": [
+            "https://www.thingiverse.com/thing:686084",
+            "https://www.thingiverse.com/thing:3903972",
+            "https://www.thingiverse.com/thing:3555524",
+            "https://www.thingiverse.com/thing:1971795",
+            "https://www.thingiverse.com/thing:3357957",
+            "https://www.thingiverse.com/thing:2960070",
+            "https://www.thingiverse.com/thing:4574423",
+            "https://www.thingiverse.com/thing:1816581",
+            "https://www.thingiverse.com/thing:49936",
+            "https://www.thingiverse.com/thing:1049502",
+            "https://www.thingiverse.com/thing:1692456",
+            "https://www.thingiverse.com/thing:3765128",
+            "https://www.thingiverse.com/thing:4314723",
+            "https://www.thingiverse.com/thing:1079916"
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "spoon": {
+        "actuation-operation": [
+            "https://www.thingiverse.com/thing:686084",
+            "https://www.thingiverse.com/thing:3903972",
+            "https://www.thingiverse.com/thing:3555524",
+            "https://www.thingiverse.com/thing:1971795",
+            "https://www.thingiverse.com/thing:3357957",
+            "https://www.thingiverse.com/thing:2960070",
+            "https://www.thingiverse.com/thing:4574423",
+            "https://www.thingiverse.com/thing:1816581",
+            "https://www.thingiverse.com/thing:49936",
+            "https://www.thingiverse.com/thing:1049502",
+            "https://www.thingiverse.com/thing:1692456",
+            "https://www.thingiverse.com/thing:3765128",
+            "https://www.thingiverse.com/thing:4314723",
+            "https://www.thingiverse.com/thing:1079916"
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "knife": {
+        "actuation-operation": [
+            "https://www.thingiverse.com/thing:686084",
+            "https://www.thingiverse.com/thing:3903972",
+            "https://www.thingiverse.com/thing:3555524",
+            "https://www.thingiverse.com/thing:1971795",
+            "https://www.thingiverse.com/thing:3357957",
+            "https://www.thingiverse.com/thing:2960070",
+            "https://www.thingiverse.com/thing:4574423",
+            "https://www.thingiverse.com/thing:1816581",
+            "https://www.thingiverse.com/thing:49936",
+            "https://www.thingiverse.com/thing:1049502",
+            "https://www.thingiverse.com/thing:1692456",
+            "https://www.thingiverse.com/thing:3765128",
+            "https://www.thingiverse.com/thing:4314723",
+            "https://www.thingiverse.com/thing:1079916"
+        ],
+        "actuation-reach": [],
+        "constraint": [
+            "https://www.thingiverse.com/thing:16174"
+        ],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "scissors": {
+        "actuation-operation": [
+            "https://www.thingiverse.com/thing:2969607"
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "shoes": {
+        "actuation-operation": [
+            "https://www.thingiverse.com/thing:1724591",
+            "https://www.thingiverse.com/thing:3322072"
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "clothes": {
+        "actuation-operation": [
+            "https://www.thingiverse.com/thing:3021066"
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "buttons": {
+        "actuation-operation": [
+            "https://www.thingiverse.com/thing:3021066"
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "socks": {
+        "actuation-operation": [
+            "https://www.thingiverse.com/thing:1094092"
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "nail_clipper": {
+        "actuation-operation": [
+            "https://www.thingiverse.com/thing:2810056",
+            "https://www.thingiverse.com/thing:38739",
+            "https://www.thingiverse.com/thing:33815",
+            "https://www.thingiverse.com/thing:3236371",
+            "https://www.thingiverse.com/thing:4211020",
+            "https://www.thingiverse.com/thing:5404760",
+            "https://www.thingiverse.com/thing:2918330"
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "book": {
+        "actuation-operation": [],
+        "actuation-reach": [],
+        "constraint": [
+            "https://www.thingiverse.com/thing:2105202",
+            "https://www.thingiverse.com/thing:2752344"
+        ],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "document": {
+        "actuation-operation": [],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": [
+            "https://www.thingiverse.com/thing:3192347",
+            "https://www.thingiverse.com/thing:3260322"
+        ]
+    },
+    "toothpaste": {
+        "actuation-operation": [
+            "https://www.thingiverse.com/thing:867811",
+            "https://www.thingiverse.com/thing:49263",
+            "https://www.thingiverse.com/thing:1261318"
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "toothbrush": {
+        "actuation-operation": [
+            "https://www.thingiverse.com/thing:3413829",
+            "https://www.thingiverse.com/thing:1936150",
+            "https://www.thingiverse.com/thing:3413829"
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "toothbrush_electronic": {
+        "actuation-operation": [
+            "https://www.thingiverse.com/thing:3882190"
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "clock": {
+        "actuation-operation": [],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [
+            "https://www.thingiverse.com/thing:2381829"
+        ],
+        "indication-tactile": [
+            "https://www.thingiverse.com/thing:2381829",
+            "https://www.thingiverse.com/thing:4665793",
+            "https://www.thingiverse.com/thing:4648789"
+        ]
+    },
+    "key": {
+        "actuation-operation": [
+            "https://www.thingiverse.com/thing:3805863",
+            "https://www.thingiverse.com/thing:1852950",
+            "https://www.thingiverse.com/thing:4903192"
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "corner": {
+        "actuation-operation": [],
+        "actuation-reach": [],
+        "constraint": [
+            "https://www.thingiverse.com/thing:2982612"
+        ],
+        "indication-visual": [],
+        "indication-tactile": []
+    }
+}

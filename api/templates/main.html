@@ -19,59 +19,48 @@
 		<!-- Wrapper -->
 		
 			<div id="wrapper" class="divided">
-				
 
-				<!-- <div class="header">
-					<h3>Objects with possible barriers</h3>
-
-					<img class="detected-object" onclick="update_suggestion(this.name);" name="object1" src="static/assets/images/object/object.png">
-					<img class="detected-object" onclick="update_suggestion(this.name);" name="object1" src="static/assets/images/object/object.png">
-					<img class="detected-object" onclick="update_suggestion(this.name);" name="object1" src="static/assets/images/object/object.png">
-					<img class="detected-object" onclick="update_suggestion(this.name);" name="object1" src="static/assets/images/object/object.png">
-					<img class="detected-object" onclick="update_suggestion(this.name);" name="object1" src="static/assets/images/object/object.png">
-					
-		
-				</div> -->
-				<!-- <h2>Barrier detected</h2> -->
-				<!-- <a href="{{ url_for('home') }}" style="align-self:right"><h2>Home</h2></a> -->
 				<section class="banner style1 orient-left content-align-left image-position-right onload-image-fade-in onload-content-fade-right">
-					
+                    
 					<div class="content">
-						<h3>Objects with possible barriers</h3>
-						<div class="detection">
-							<img class="detected-object" onclick="update_suggestion(this.name);" name="object1" src="static/assets/images/object/object.png">
-							<img class="detected-object" onclick="update_suggestion(this.name);" name="object1" src="static/assets/images/object/object.png">
-							<img class="detected-object" onclick="update_suggestion(this.name);" name="object1" src="static/assets/images/object/object.png">
-							<img class="detected-object" onclick="update_suggestion(this.name);" name="object1" src="static/assets/images/object/object.png">
-							<img class="detected-object" onclick="update_suggestion(this.name);" name="object1" src="static/assets/images/object/object.png">
-							
-						</div>
-						Click the object to view suggestions
-					</div>
-			
-					
+                        <h3>Objects with possible barriers</h3>
+                        <div id="detection">
+                            <!-- <img class="detected-object" onclick="update_suggestion(this.name);" name="object1" src="static/assets/images/object/object.png">
+                            <img class="detected-object" onclick="update_suggestion(this.name);" name="object1" src="static/assets/images/object/object.png">
+                            <img class="detected-object" onclick="update_suggestion(this.name);" name="object1" src="static/assets/images/object/object.png">
+                            <img class="detected-object" onclick="update_suggestion(this.name);" name="object1" src="static/assets/images/object/object.png">
+                            <img class="detected-object" onclick="update_suggestion(this.name);" name="object1" src="static/assets/images/object/object.png"> -->
+                        </div>
+                        Click the object to view suggestions
+                    </div>
+                    
 					<div class="content">
-						<!-- <h3>Objects with possible barriers</h3> -->
-						Click to enlarge the image
-						<img id="myImg" src="static/assets/images/kitchen_3_gt.jpg" alt="Full image" style="width:100%"/>          
-						
-
+                        <!-- <h3>Objects with possible barriers</h3> -->
+                        Click to enlarge the image
+                        <img id="myImg" src="static/assets/images/kitchen_3_gt.jpg" alt="Full image" style="width:100%"/>
+                    
 					</div>
-					
-					
+                
 				</section>
-
-                <section class="banner style1 orient-left content-align-left image-position-right onload-image-fade-in onload-content-fade-right"></section>
-
-                    <div class="content">
-
+                
+				<section class="banner style1 orient-left content-align-left image-position-right onload-image-fade-in onload-content-fade-right"></section>
+                    
+					<div class="content" style="margin-left:5%">
                         <div id="suggestion-title"></div>
-                        
+						<div id="detected-instance"></div>
                         <div id="suggestion" style="overflow:auto"></div>
-                        
                     </div>
                 </section>
-			</div>
+            </div>
+			
+			<!-- Load local data -->
+			<script>
+				var dictionary = JSON.parse('{{ dictionary|tojson }}');
+				var designs = JSON.parse('{{ designs|tojson }}');
+				var objects = JSON.parse('{{ objects|tojson }}');
+				// console.log(designs);
+				// console.log(objects);
+			</script>
 
 			<!-- The Modal -->
 			<div id="myModal" class="modal">
@@ -86,7 +75,7 @@
 				<div id="caption"></div>
 			</div>
 		
-
+	
 		<!-- Scripts -->
 			<script src="static/assets/js/jquery.min.js"></script>
 			<script src="static/assets/js/jquery.scrollex.min.js"></script>
@@ -95,6 +84,7 @@
 			<script src="static/assets/js/breakpoints.min.js"></script>
 			<script src="static/assets/js/util.js"></script>
 			<script src="static/assets/js/main.js"></script>
+			<script src="static/assets/js/load_main.js"></script>
 			<script src="static/assets/js/modal.js"></script>
 			<script src="static/assets/js/suggestion.js"></script>
 			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>

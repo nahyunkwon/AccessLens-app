@@ -79,11 +79,22 @@
  }
 
 .detected-object{
-    width: 120px;
-    height:120px;
+    width: 150px;
+    height:150px;
+    padding:10px;
 }
 
 .detected-object:hover {
+    opacity: 0.7;
+}
+
+.design-element{
+    width: 300px;
+    height:300px;
+    padding:10px;
+}
+
+.design-element:hover {
     opacity: 0.7;
 }
 
@@ -94,10 +105,15 @@
 }
 
 .demo-thumbnail {
-    width:300px;
-    height:180px;
+    width:20wh;
+    height:25vh;
 }
 
 .demo-thumbnail:hover {
   opacity: 0.7;
+}
+
+.component {
+    margin-left:5%;
+    
 }
