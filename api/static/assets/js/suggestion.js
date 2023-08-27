@@ -15,7 +15,7 @@ function update_suggestion(object){
     design_title = "title1"
     design_img = "static/assets/images-design/design.jpg"
     design_full_link = "https://www.thingiverse.com/thing:2271048"
-    suggestion.innerHTML = suggestion.innerHTML + "<li>" + design_title + "<img class='design' src=" + design_img + "><li>\n";
+    suggestion.innerHTML = suggestion.innerHTML + "<li>" + design_title + "<img class='design' src=" + design_img + "></li>\n";
 
     // close ul element
     suggestion.innerHTML = suggestion.innerHTML + "</ul>";
