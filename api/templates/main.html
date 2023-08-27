@@ -18,20 +18,23 @@
 			<div id="wrapper" class="divided">
 				<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
 					<div class="content">
-						<h1>AccessLens Demo</h1>
+						<h1>Main page</h1>
 						<p class="major">
-						Explore example photos of indoor scenes and 3D augmentations to improve barriers!
+						Here you can explore 3 example photos of indoor scenes.<br>
+						See which objects can pose barriers and 3D augmentations to improve them!
+
+						<ul class="actions stacked">
+							<li><a href="{{ url_for('main') }}"><img src="static/assets/images/kitchen_3_gt.jpg" alt="dataset image" style="width:100px;height:100px"/></a> </li>
+							<li><a href="{{ url_for('main') }}"><img src="static/assets/images/kitchen_3_gt.jpg" alt="dataset image" style="width:100px;height:100px"/></a> </li>
+							
+						</ul>
 
 						</p>           
 					
 					</div>
 					<div class="image">
-						<!-- <img src="static/assets/images/kitchen_3_gt.jpg" alt="dataset image"/> -->
-						<ul class="actions stacked">
-							<li><a href="{{ url_for('detection') }}"><img src="static/assets/images/kitchen_3_gt.jpg" alt="dataset image" style="width:100px;height:100px"/></a> </li>
-							<li><a href="{{ url_for('detection') }}"><img src="static/assets/images/kitchen_3_gt.jpg" alt="dataset image" style="width:100px;height:100px"/></a> </li>
-							
-						</ul>
+						<img src="static/assets/images/kitchen_3_gt.jpg" alt="dataset image"/>
+						
 					</div>
 
 					
