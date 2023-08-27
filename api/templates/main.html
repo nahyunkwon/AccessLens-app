@@ -10,40 +10,59 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="static/assets/css/main.css" />
+		<link rel="stylesheet" href="static/assets/css/custom.css" />
 		<noscript><link rel="stylesheet" href="static/static/assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
 
 		<!-- Wrapper -->
 			<div id="wrapper" class="divided">
+				<!-- <h2>Barrier detected</h2> -->
+				<!-- <a href="{{ url_for('home') }}" style="align-self:right"><h2>Home</h2></a> -->
 				<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
 					<div class="content">
 						<h3>Objects with barriers</h3>
 						
+						
 						<div class="detection" style="background-color:burlywood;height:30%">
 							<img class="detected-object" onclick="update_suggestion(this.name);" name="object1" src="static/assets/images-object/object.png">
-							<img src="static/assets/images-object/object.png">
-							<img src="static/assets/images-object/object.png">
+							<img class="detected-object" onclick="update_suggestion(this.name);" name="object1" src="static/assets/images-object/object.png">
+							<img class="detected-object" onclick="update_suggestion(this.name);" name="object1" src="static/assets/images-object/object.png">
+							<img class="detected-object" onclick="update_suggestion(this.name);" name="object1" src="static/assets/images-object/object.png">
+							<img class="detected-object" onclick="update_suggestion(this.name);" name="object1" src="static/assets/images-object/object.png">
 							
 						</div>
 
 						<h3>Suggestions</h3>
 						
-						<div id="suggestion" style="background-color:aqua;height:70%">
+						<div id="suggestion" style="background-color:aqua;height:80%">
 							Click any object above to view designs
 						</div>
 
 
 					</div>
-					<div class="content">
-						<h1>Image detected</h1>
-						<img src="static/assets/images/kitchen_3_gt.jpg" alt="dataset image" style="width:100%"/>          
+					<div class="image">
+
+						<img id="myImg" src="static/assets/images/kitchen_3_gt.jpg" alt="Full image"/>          
 						
 					</div>
 
 					
 					
 				</section>
+			</div>
+
+			<!-- The Modal -->
+			<div id="myModal" class="modal">
+
+				<!-- The Close Button -->
+				<span class="close">&times;</span>
+			
+				<!-- Modal Content (The Image) -->
+				<img class="modal-content" id="img01">
+			
+				<!-- Modal Caption (Image Text) -->
+				<div id="caption"></div>
 			</div>
 		
 
