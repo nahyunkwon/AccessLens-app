@@ -92,3 +92,12 @@
     padding-left:2%;
     padding-right:2%;
 }
+
+.demo-thumbnail {
+    width:300px;
+    height:180px;
+}
+
+.demo-thumbnail:hover {
+  opacity: 0.7;
+}
