@@ -18,11 +18,11 @@ def main():
 
     # show the form, it wasn't submitted
     name = request.args['name']
-    with open('/static/assets/data/3AD_dictionary_with_id.json', 'r') as f:
+    with open('templates/data/3AD_dictionary_with_id.json', 'r') as f:
         dictionary = json.load(f)
         f.close()
 
-    with open('/static/assets/data/3AD_design_info.json', 'r') as f:
+    with open('templates/data/3AD_design_info.json', 'r') as f:
         designs = json.load(f)
         f.close()
     
