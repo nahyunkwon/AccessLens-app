@@ -34,7 +34,8 @@ def main():
     objects = []
 
     if name == "bathroom_1.jpg":
-        objects = ['handle__bar_small', 'switch__toggle_single', 'faucet__lever', 'bottle__pump', 'knob__rotate_round']
+        objects = ['closet', 'switch__toggle_single', 'faucet', 'bottle__pump', 'knob__rotate_round', 'corner',
+                   'door', 'drawer']
     
 
     return render_template('main.html', dictionary=dictionary, designs=designs, objects=objects)

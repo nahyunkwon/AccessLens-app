@@ -53,7 +53,7 @@ function update_suggestion(object){
                 var key_div = document.createElement('div');
                 key_div.innerHTML = "<h3>" + key + "</h3>";
 
-                console.log(key, object_designs[key]);
+                // console.log(key, object_designs[key]);
 
                 for(var j=0;j<object_designs[key].length;j++){
                     key_div.appendChild(load_design(object_designs[key][j]));

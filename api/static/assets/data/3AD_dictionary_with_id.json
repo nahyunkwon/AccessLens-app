@@ -647,5 +647,18 @@
         ],
         "indication-visual": [],
         "indication-tactile": []
+    },
+    "faucet": {
+        "actuation-operation": [
+            "3628384"
+        ],
+        "actuation-reach": [
+            "2271048",
+            "1690202",
+            "3672929"
+        ],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
     }
 }

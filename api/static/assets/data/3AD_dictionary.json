@@ -647,5 +647,19 @@
         ],
         "indication-visual": [],
         "indication-tactile": []
+    },
+    "faucet": {
+        "actuation-operation": [
+            "https://www.thingiverse.com/thing:3628384"
+        ],
+        "actuation-reach": [
+            "https://www.thingiverse.com/thing:2271048",
+            "https://www.thingiverse.com/thing:1690202",
+            "https://www.thingiverse.com/thing:3672929"
+        ],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
     }
+    
 }
