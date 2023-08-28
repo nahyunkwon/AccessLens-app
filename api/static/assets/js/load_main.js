@@ -9,7 +9,6 @@ document.getElementById("myImg").src = "static/assets/images/input/" + name;
 /* Load designs */
 function load_design(design_id){
 
-    
 
     console.log(design_id);
 
