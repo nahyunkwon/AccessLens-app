@@ -1,7 +1,12 @@
 from flask import Flask, render_template, request, redirect, url_for
 import json
+import os
 
 app = Flask(__name__)
+
+basedir = os.path.abspath(os.path.dirname(__file__))
+dictionary_file = os.path.join(basedir, 'static/assets/data/3AD_dictionary_with_id.json')
+design_file = os.path.join(basedir, 'static/assets/data/3AD_design_info.json')
 
 @app.route('/')
 def home():
@@ -18,17 +23,15 @@ def main():
 
     # show the form, it wasn't submitted
     name = request.args['name']
-    with open('templates/data/3AD_dictionary_with_id.json', 'r') as f:
+    with open(dictionary_file, 'r') as f:
         dictionary = json.load(f)
         f.close()
 
-    with open('templates/data/3AD_design_info.json', 'r') as f:
+    with open(design_file, 'r') as f:
         designs = json.load(f)
         f.close()
     
     objects = []
-
-    print(designs["1852950"])
 
     if name == "bathroom_1.jpg":
         objects = ['handle__bar_small', 'switch__toggle_single', 'faucet__lever', 'bottle__pump', 'knob__rotate_round']
