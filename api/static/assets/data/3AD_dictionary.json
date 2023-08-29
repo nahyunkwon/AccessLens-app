@@ -118,10 +118,28 @@
         "constraint": [
             {
                 "design_url": "https://www.thingiverse.com/thing:3075157",
-                "image_url": "https://www.thingiverse.com/thing:3075157",
+                "image_url": "https://cdn.thingiverse.com/renders/97/a7/63/61/53/44571f5c9782baea00e55cca337adb0e_preview_featured.jpg",
                 "title": "magnetic drawer lock"
             }
         ],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "handle__flush_pull.png": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:1228617",
+                "image_url": "https://cdn.thingiverse.com/renders/83/90/3b/61/0c/fdb37c1d7cf2f2f2ac1c850a80a12ed4_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:976006",
+                "image_url": "https://cdn.thingiverse.com/renders/40/25/40/a5/e3/Hadles_preview_card.jpg",
+                "title": ""
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [],
         "indication-visual": [],
         "indication-tactile": []
     },
@@ -604,7 +622,7 @@
         "indication-visual": [],
         "indication-tactile": []
     },
-    "electric_outlet__electric_outlet": {
+    "electric_outlet": {
         "actuation-operation": [],
         "actuation-reach": [],
         "constraint": [
@@ -1619,6 +1637,19 @@
                 "title": "closet latch"
             }
         ],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "hair_dryer":{
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:1846213",
+                "image_url": "https://cdn.thingiverse.com/renders/06/aa/d9/6e/49/aba9effdc83edb0deb42ea73b8e25ca3_preview_featured.JPG",
+                "title": "https://www.thingiverse.com/thing:1846213"
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [],
         "indication-visual": [],
         "indication-tactile": []
     }
