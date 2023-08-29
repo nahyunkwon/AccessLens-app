@@ -7,16 +7,13 @@ document.getElementById("myImg").src = "static/assets/images/input/" + name;
 
 
 /* Load designs */
-function load_design(design_id){
-
-
-    console.log(design_id);
+function load_design(design_element){
 
     var a = document.createElement('a');
-    a.href = designs[design_id]['design_url'];
+    a.href = design_element['design_url'];
     
     var img = document.createElement("img");
-    img.src = designs[design_id]["image_url"];
+    img.src = design_element["image_url"];
     // img.src = "https://cdn.thingiverse.com/assets/2a/24/a1/7f/62/card_preview_90085844_211047486634488_3888945027983867904_n.jpg";
     img.classList.add('design-element');
     // img.setAttribute("onclick", 'window.open("'+designs[design_id]['design_url']+'"');
@@ -28,22 +25,33 @@ function load_design(design_id){
 }
 
 function update_suggestion(object){
+    
     suggestion_title = document.getElementById('suggestion-title');
     suggestion = document.getElementById('suggestion');
 
-    suggestion_title.innerHTML = "<h2>" + object + "</h2>";
+    
+    if(object.includes("__")){
+        suggestion_title.innerHTML = "<h2>" + object.split("__")[0] + " - " + object.split("__")[1].replace("_", " ")  + "</h2>";
+    }
+    else{
+        suggestion_title.innerHTML = "<h2>" + object + "</h2>";
+    }
 
     while (suggestion.hasChildNodes()) {
         suggestion.removeChild(suggestion.lastChild);
-      }
+    }
 
     if(Object.keys(dictionary).includes(object)){
-        object_designs = dictionary[object];
-        // console.log(object_designs);
+        var object_designs = dictionary[object];
+
+        var root_object_designs = [];
+
+        // If it has IC (type)
+        if(object.includes("__") && Object.keys(dictionary).includes(object.split("__")[0])){
+            root_object_designs = dictionary[object.split("__")[0]];
+        }
 
         var keys = Object.keys(object_designs);
-
-        // console.log(keys);
 
         for(var i=0;i<keys.length;i++){
             var key = keys[i];
@@ -52,10 +60,14 @@ function update_suggestion(object){
                 var key_div = document.createElement('div');
                 key_div.innerHTML = "<h3>" + key + "</h3>";
 
-                // console.log(key, object_designs[key]);
-
                 for(var j=0;j<object_designs[key].length;j++){
-                    key_div.appendChild(load_design(object_designs[key][j]));
+                    key_div.appendChild(load_design(object_designs[key][j])); // dict object
+                }
+
+                if(root_object_designs.length != 0){
+                    for(var j=0;root_object_designs[key].length;j++){
+                        key_div.appendChild(load_design(root_object_designs[key][j]));
+                    }
                 }
 
                 suggestion.appendChild(key_div);
@@ -65,9 +77,6 @@ function update_suggestion(object){
         
 
     }
-   
-
-
 
 
     // // suggestion.innerHTML = "<h4>" + object + "</h4>";

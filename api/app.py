@@ -5,8 +5,8 @@ import os
 app = Flask(__name__)
 
 basedir = os.path.abspath(os.path.dirname(__file__))
-dictionary_file = os.path.join(basedir, 'static/assets/data/3AD_dictionary_with_id.json')
-design_file = os.path.join(basedir, 'static/assets/data/3AD_design_info.json')
+dictionary_file = os.path.join(basedir, 'static/assets/data/3AD_dictionary.json')
+# design_file = os.path.join(basedir, 'static/assets/data/3AD_design_info.json')
 
 @app.route('/')
 def home():
@@ -27,9 +27,9 @@ def main():
         dictionary = json.load(f)
         f.close()
 
-    with open(design_file, 'r') as f:
-        designs = json.load(f)
-        f.close()
+    # with open(design_file, 'r') as f:
+    #     designs = json.load(f)
+    #     f.close()
     
     objects = []
 
@@ -38,7 +38,7 @@ def main():
                    'door', 'drawer']
     
 
-    return render_template('main.html', dictionary=dictionary, designs=designs, objects=objects)
+    return render_template('main.html', dictionary=dictionary, objects=objects)
 
 @app.route('/demo')
 def demo():
