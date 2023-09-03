@@ -102,18 +102,7 @@
         "indication-tactile": []
     },
     "drawer": {
-        "actuation-operation": [
-            {
-                "design_url": "https://www.thingiverse.com/thing:1228617",
-                "image_url": "https://cdn.thingiverse.com/renders/83/90/3b/61/0c/fdb37c1d7cf2f2f2ac1c850a80a12ed4_preview_card.jpg",
-                "title": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:976006",
-                "image_url": "https://cdn.thingiverse.com/renders/40/25/40/a5/e3/Hadles_preview_card.jpg",
-                "title": ""
-            }
-        ],
+        "actuation-operation": [],
         "actuation-reach": [],
         "constraint": [
             {
@@ -125,7 +114,7 @@
         "indication-visual": [],
         "indication-tactile": []
     },
-    "handle__flush_pull.png": {
+    "handle__flush_pull": {
         "actuation-operation": [
             {
                 "design_url": "https://www.thingiverse.com/thing:1228617",
