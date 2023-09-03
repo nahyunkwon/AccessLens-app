@@ -33,22 +33,25 @@ def main():
     
     objects = []
 
-    if name == "bathroom_1.jpg":
-        objects = ['closet', 'switch__toggle_single', 'faucet', 'bottle__pump', 'knob__rotate_round', 'corner',
-                   'door', 'drawer']
-    elif name == "bedroom.jpg":
-        objects = [
-            'bottle__pump',
-            'bottle__spray',
-            'door',
-            'drawer',
-            'electric_outlet',
-            'handle__flush_pull',
-            'switch__toggle_single',
-            'handle__lever',
-            'toothpaste',
-            'hair_dryer'
-        ]
+    objects = os.listdir(os.path.join(basedir, 'static/assets/images/object/'+name+'/'))
+    objects = [x.split(".")[0] for x in objects]
+
+    # if name == "bathroom_1.jpg":
+    #     objects = ['closet', 'switch__toggle_single', 'faucet', 'bottle__pump', 'knob__rotate_round', 'corner',
+    #                'door', 'drawer']
+    # elif name == "bedroom.jpg":
+    #     objects = [
+    #         'bottle__pump',
+    #         'bottle__spray',
+    #         'door',
+    #         'drawer',
+    #         'electric_outlet',
+    #         'handle__flush_pull',
+    #         'switch__toggle_single',
+    #         'handle__lever',
+    #         'toothpaste',
+    #         'hair_dryer'
+    #     ]
     
 
     return render_template('main.html', dictionary=dictionary, objects=objects)
