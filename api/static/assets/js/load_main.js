@@ -17,7 +17,7 @@ function load_design(design_element){
     // img.src = "https://cdn.thingiverse.com/assets/2a/24/a1/7f/62/card_preview_90085844_211047486634488_3888945027983867904_n.jpg";
     img.classList.add('design-element');
     // img.setAttribute("onclick", 'window.open("'+designs[design_id]['design_url']+'"');
-
+    img.onclick = document.getElementById('suggestion').scrollIntoView();
     a.appendChild(img);
 
     return a
