@@ -578,8 +578,20 @@
                 "title": ""
             }
         ],
-        "indication-visual": [],
-        "indication-tactile": []
+        "indication-visual": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:4924800",
+                "image_url": "https://cdn.thingiverse.com/assets/b0/b0/28/74/d4/card_preview_Switchplate-Icon-Thingiverse-04.jpg",
+                "title": ""
+            }
+        ],
+        "indication-tactile": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:4924800",
+                "image_url": "https://cdn.thingiverse.com/assets/b0/b0/28/74/d4/card_preview_Switchplate-Icon-Thingiverse-04.jpg",
+                "title": ""
+            }
+        ]
     },
     "switch__rocker_single": {
         "actuation-operation": [],
