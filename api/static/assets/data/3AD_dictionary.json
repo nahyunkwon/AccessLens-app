@@ -114,6 +114,19 @@
         "indication-visual": [],
         "indication-tactile": []
     },
+    "handle__bar_small": {
+        "actuation-operation": [
+            {
+                "design_url": "https://pinshape.com/items/25355-3d-printed-drawer-opening-assitive-device",
+                "image_url": "https://assets.pinshape.com/uploads/image/file/97323/container_drawer-opening-assitive-device-3d-printing-97323.jpg",
+                "title": ""
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
     "handle__flush_pull": {
         "actuation-operation": [
             {
