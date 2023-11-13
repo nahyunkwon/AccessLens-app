@@ -100,6 +100,6 @@ def demo():
 def upload():
     return render_template('upload.html')
 
-@app.route('/about')
-def about():
-    return 'About'
+# @app.route('/about')
+# def about():
+#     return 'About'
