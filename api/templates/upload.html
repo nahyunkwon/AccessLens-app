@@ -21,26 +21,38 @@
 			
 				<section class="banner style1 orient-left content-align-left image-position-right onload-image-fade-in onload-content-fade-right">
 					<div class="content">
-						<h1>AccessLens Demo</h1>
+						<h2>Get an AI inspection for your rooms!</h2>
+
+						Upload a wide view of the room that you want to inspect. <br>
 						<!-- <p class="major"> -->
-							<p class="major">
-								Here you can explore example photos of indoor environments.<br>
-								See which everyday objects can pose barriers and 3D-printed augmentations can improve them!
-							</p>
+							<!-- <img src="static/assets/images/input/bathroom_1.jpg" style="width:30%">
+							<img src="static/assets/images/input/bedroom.jpg" style="width:30%">
+							<img src="static/assets/images/input/kitchen_10.jpg" style="width:30%"> -->
 
+							<br>
+							
+							<!-- <input type="file" id="image-input" accept="image/*">
+						<a class="button big wide smooth-scroll-middle" onclick="document.getElementById('image-input')"> <img>Upload photo</a> -->
+
+						<form action="{{ url_for('main') }}" enctype="multipart/form-data" method="POST">
+							<input name="img" type="file"/>
+							<input type="submit"/>
+						</form>
+
+						<!-- <a class="button big wide smooth-scroll-middle" onclick="document.getElementById('my-file')"> <img>Submit</a> -->
+
+						<!-- video stream -->
 						
-					</div>
-
-					<div class="content">
-						<a href="{{ url_for('main', image='bathroom_1.jpg') }}"><img src="static/assets/images/input/bathroom_1.jpg" alt="dataset image" class='demo-thumbnail'/></a>
-						<!-- <a href="{{ url_for('main', name='kitchen_10.jpg') }}"><img src="static/assets/images/input/kitchen_10.jpg" alt="dataset image" class='demo-thumbnail'/></a> -->
-						<a href="{{ url_for('main', image='bedroom.jpg') }}"><img src="static/assets/images/input/bedroom.jpg" alt="dataset image" class='demo-thumbnail'/></a> 
-
-
 					</div>
 					
 				</section>
 			</div>
+
+
+			<script>
+
+			</script>
+
 		
 
 		<!-- Scripts -->

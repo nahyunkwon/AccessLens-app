@@ -1,10 +1,12 @@
 
 /* Load image name */
 var urlParams = new URLSearchParams(window.location.search);
-var name = urlParams.get('name');
-document.getElementById("myImg").src = "static/assets/images/input/" + name;
+// var image = urlParams.get('image');
+document.getElementById("myImg").src = "static/assets/images/input/" + image;
 
+console.log(dictionary);
 
+console.log(image);
 
 /* Load designs */
 function load_design(design_element){
@@ -102,7 +104,7 @@ function update_suggestion(object){
 /* Load object thumbnail (either representative or random instance if multiple occurence) */
 function load_image(object_name){
     var img = document.createElement("img");
-    img.src = 'static/assets/images/object/' + name + "/" + object_name + '.png';
+    img.src = 'static/assets/images/object/' + image + "/" + object_name + '.png';
     img.name = object_name;
     img.classList.add('detected-object');
     img.setAttribute("onclick", "update_suggestion(this.name);");

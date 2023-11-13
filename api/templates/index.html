@@ -26,30 +26,18 @@
 							<p class="major">
 								Inspect barriers in indoor spaces and find 3D assistive designs to improve them!
 
-								<!-- <ul>
-									<li>
-										Datasets (in COCO format)
-										<ul>
-											<li>AccessDB (train, val)</li>
-											<li>AccessReal (test)</li>
-										</ul> 
-									</li>
-									<li>
-										AccessDB contains 2,388 indoor scene images from <a href="https://groups.csail.mit.edu/vision/datasets/ADE20K/">ADE20K</a> dataset, re-annotated with inaccessibility classes.
-									</li>
-									<li>
-										AccessReal contains 42 high-resolution real-world indoor images for evaluation of the detector trained with AccessDB.
-									</li>
-									<li>
-										labels.txt presents 21 inaccessibility classes and 1 'unidentifiable' class (marked as 'unknown' in the dataset)
-									</li>
-								</ul> -->
-						
-
 							</p>
 							<ul class="actions stacked">
 								<li><a href="{{ url_for('demo') }}" class="button big wide smooth-scroll-middle">Try Demo</a> </li>
-								<li><a href="#" onclick="alert('Automated AI inspection will be available soon!');" class="button big wide smooth-scroll-middle">Upload Photo (Coming soon!)</a> </li>
+
+								<li><a href="{{ url_for('upload') }}" class="button big wide smooth-scroll-middle">Upload photo</a> </li>
+								
+								<!-- <input style="display:none" type="file" id="my-file" accept="image/*">
+								<li><a class="button big wide smooth-scroll-middle" onclick="document.getElementById('my-file').click()"> <img>Upload photo</a> </li> -->
+
+								
+								<!-- <button type="button" class="button big wide smooth-scroll-middle" onclick="document.getElementById('my-file').click()">Upload photo</button> -->
+
 								
 							</ul>
 							
