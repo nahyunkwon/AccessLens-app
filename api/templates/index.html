@@ -30,7 +30,12 @@
 							<ul class="actions stacked">
 								<li><a href="{{ url_for('demo') }}" class="button big wide smooth-scroll-middle">Try Demo</a> </li>
 
-								<li><a href="{{ url_for('upload') }}" class="button big wide smooth-scroll-middle">Upload photo</a> </li>
+								<!-- <li><a href="{{ url_for('upload') }}" class="button big wide smooth-scroll-middle">Upload photo</a> </li> -->
+
+								<form action="{{ url_for('main') }}" enctype="multipart/form-data" method="POST">
+									<input name="img" type="file"/>
+									<input type="submit"/>
+								</form>
 								
 								<!-- <input style="display:none" type="file" id="my-file" accept="image/*">
 								<li><a class="button big wide smooth-scroll-middle" onclick="document.getElementById('my-file').click()"> <img>Upload photo</a> </li> -->
