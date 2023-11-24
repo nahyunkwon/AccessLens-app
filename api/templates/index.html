@@ -28,14 +28,24 @@
 
 							</p>
 							<ul class="actions stacked">
-								<li><a href="{{ url_for('demo') }}" class="button big wide smooth-scroll-middle">Try Demo</a> </li>
-
+								
+								
+								
 								<!-- <li><a href="{{ url_for('upload') }}" class="button big wide smooth-scroll-middle">Upload photo</a> </li> -->
+								<!-- <li><h3>Upload your room photo for inspection!</h3></li> -->
+								<li>
+									<form action="{{ url_for('main') }}" enctype="multipart/form-data" method="POST">
+										<input name="img" type="file"/>
+										<input type="submit"/>
+									</form>
+								</li>
+								Explore some example photos!
+								<li><a href="{{ url_for('demo') }}" class="button big wide smooth-scroll-middle">Try Demo</a> </li>
+								
+								<br>
 
-								<form action="{{ url_for('main') }}" enctype="multipart/form-data" method="POST">
-									<input name="img" type="file"/>
-									<input type="submit"/>
-								</form>
+								See 3D printed augmentations to improve your environments!
+								<li><a href="{{ url_for('design') }}" class="button big wide smooth-scroll-middle">3D Augmentation Explorer</a> </li>
 								
 								<!-- <input style="display:none" type="file" id="my-file" accept="image/*">
 								<li><a class="button big wide smooth-scroll-middle" onclick="document.getElementById('my-file').click()"> <img>Upload photo</a> </li> -->

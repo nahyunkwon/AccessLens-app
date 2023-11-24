@@ -96,6 +96,15 @@ def demo():
     # show the form, it wasn't submitted
     return render_template('demo.html')
 
+@app.route('/design')
+def design():
+    
+    with open(dictionary_file, 'r') as f:
+        dictionary = json.load(f)
+        f.close()
+    
+    return render_template('design.html', dictionary=dictionary)
+
 @app.route('/upload')
 def upload():
     return render_template('upload.html')

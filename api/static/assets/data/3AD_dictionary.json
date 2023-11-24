@@ -5,6 +5,11 @@
                 "design_url": "https://www.thingiverse.com/thing:4225872",
                 "image_url": "https://cdn.thingiverse.com/assets/4f/5f/32/ba/fd/featured_preview_IMG_5719.JPEG",
                 "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:4225524",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/assets/c5/2f/78/ce/58/large_display_20200414_113037.jpg",
+                "title": "Corona Door Opener"
             }
         ],
         "actuation-reach": [],
@@ -41,6 +46,11 @@
                 "design_url": "https://www.thingiverse.com/thing:3149086",
                 "image_url": "https://cdn.thingiverse.com/renders/f6/ca/66/9f/10/7d6dd054eece5c7f4d3120a2decd6af2_preview_featured.JPG",
                 "title": "door bumper"
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:2525311",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/renders/59/5d/f6/2b/f6/22af894985f91cee7d646f37b014d2bc_display_large.jpg",
+                "title": "safety lock for doors without screws"
             }
         ],
         "indication-visual": [],
@@ -57,12 +67,65 @@
                 "design_url": "https://www.thingiverse.com/thing:1095439",
                 "image_url": "https://cdn.thingiverse.com/renders/1d/1f/3a/cb/3e/20151027_112149_preview_card.jpg",
                 "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:4044273",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=90,width=863,height=486/https://cdn.thingiverse.com/assets/23/c0/1d/50/d4/large_display_Installed.jpeg",
+                "title": "Door Knob Lever Adapter"
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:2729961",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=90,width=863,height=486/https://cdn.thingiverse.com/renders/fa/09/96/fa/59/364500a4e2bcb6d645cd89e894b042c3_display_large.jpg",
+                "title": "Sturdy Door Knob Lever, Customizable"
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:5584583",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/assets/24/8d/39/3b/73/large_display_397bb415-e3c3-45c4-819d-1fa7d9294fb9.jpg",
+                "title": "Roccofantastic Door Knob Lever Adapter REMIX"
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:4307361",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/assets/29/b0/cc/c6/70/large_display_IMG_8806.JPG",
+                "title": "Additional Door handle parts"
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:4030401",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/assets/8f/b1/66/09/98/large_display_HandleWithZiplock.jpg",
+                "title": "Door Knob to Handle Adaptor"
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:4381202",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/assets/fe/07/21/9a/78/large_display_20200609_210812.jpg",
+                "title": "Round Door Knob to Lever / Handle Converter"
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:4276264",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/assets/bd/d4/d8/2a/f4/large_display_2020-03-25_21.30.14.jpg",
+                "title": "Round Door Handle No hands Lever"
             }
         ],
         "actuation-reach": [],
-        "constraint": [],
-        "indication-visual": [],
-        "indication-tactile": []
+        "constraint": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:2842381",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/renders/a2/1e/cb/07/76/5b9635ce39d2b2cd9aa29a77f0f3e5d2_display_large.JPG",
+                "title": "Child Safety Lock for Round Doorknobs"
+            }
+        ],
+        "indication-visual": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:3285768",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/renders/18/53/15/40/63/5444dee08842050b1865f1535598e84a_display_large.jpg",
+                "title": "Harry Potter Light Switch"
+            }
+        ],
+        "indication-tactile": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:3285768",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/renders/18/53/15/40/63/5444dee08842050b1865f1535598e84a_display_large.jpg",
+                "title": "Harry Potter Light Switch"
+            }
+        ]
     },
     "cabinet": {
         "actuation-operation": [
@@ -85,7 +148,18 @@
                 "title": ""
             }
         ],
-        "indication-visual": [],
+        "indication-visual": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:4141919",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/assets/4e/f0/2b/78/a7/large_display_IMG_20200203_115429.jpg",
+                "title": "Stickable label holder"
+            },
+            {
+                "design_url": "https://www.printables.com/en/model/179940-magnetic-label-holder-with-glass-insert-magnetisch",
+                "image_url": "https://media.printables.com/media/prints/179940/images/1689474_c8a94067-c72f-478f-86d5-b90cedf1344e/thumbs/inside/1600x1200/jpg/img_20220428_104518_1.webp",
+                "title": "Magnetic Label holder with glass insert / Magnetisches Schild mit Glas Einsatz"
+            }
+        ],
         "indication-tactile": []
     },
     "cupboard": {
@@ -96,22 +170,54 @@
                 "design_url": "https://www.thingiverse.com/thing:28037",
                 "image_url": "https://cdn.thingiverse.com/renders/2a/3b/bd/5d/4e/mylock_preview_card.jpg",
                 "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:4151807",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/assets/d9/8f/e6/73/af/large_display_20200208_220147.jpg",
+                "title": "cupboard Lock (baby Safety)"
             }
         ],
         "indication-visual": [],
         "indication-tactile": []
     },
     "drawer": {
-        "actuation-operation": [],
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:317006",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/renders/7a/60/15/67/8c/IMG_7668_display_large.jpg",
+                "title": "Door / cabinet / drawer handle"
+            }
+        ],
         "actuation-reach": [],
         "constraint": [
             {
                 "design_url": "https://www.thingiverse.com/thing:3075157",
                 "image_url": "https://cdn.thingiverse.com/renders/97/a7/63/61/53/44571f5c9782baea00e55cca337adb0e_preview_featured.jpg",
                 "title": "magnetic drawer lock"
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:3545627",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/renders/ed/17/3e/b3/6c/d47e7e774f1c78026d94fe641a816a61_display_large.JPG",
+                "title": "Improved drawer child lock"
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:4151807",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/assets/d9/8f/e6/73/af/large_display_20200208_220147.jpg",
+                "title": "cupboard Lock (baby Safety)"
             }
         ],
-        "indication-visual": [],
+        "indication-visual": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:4141919",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/assets/4e/f0/2b/78/a7/large_display_IMG_20200203_115429.jpg",
+                "title": "Stickable label holder"
+            },
+            {
+                "design_url": "https://www.printables.com/en/model/179940-magnetic-label-holder-with-glass-insert-magnetisch",
+                "image_url": "https://media.printables.com/media/prints/179940/images/1689474_c8a94067-c72f-478f-86d5-b90cedf1344e/thumbs/inside/1600x1200/jpg/img_20220428_104518_1.webp",
+                "title": "Magnetic Label holder with glass insert / Magnetisches Schild mit Glas Einsatz"
+            }
+        ],
         "indication-tactile": []
     },
     "handle__bar_small": {
@@ -123,7 +229,13 @@
             }
         ],
         "actuation-reach": [],
-        "constraint": [],
+        "constraint": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:4151807",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/assets/d9/8f/e6/73/af/large_display_20200208_220147.jpg",
+                "title": "cupboard Lock (baby Safety)"
+            }
+        ],
         "indication-visual": [],
         "indication-tactile": []
     },
@@ -179,6 +291,16 @@
                 "design_url": "https://www.thingiverse.com/thing:4877138",
                 "image_url": "https://cdn.thingiverse.com/assets/c2/67/7c/a3/43/card_preview_Screenshot_2021-06-03_175616.png",
                 "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:2459294",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/renders/ab/c3/84/8b/56/63f2228e9563e935e3f2418e181124dc_display_large.JPG",
+                "title": "Bottle opener"
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:1097099",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/renders/76/97/86/20/4a/Thingiverse_Cover_display_large.jpg",
+                "title": "UBO - The Universal Bottle Opener (v1)"
             }
         ],
         "actuation-reach": [],
@@ -223,6 +345,16 @@
                 "design_url": "https://www.thingiverse.com/thing:132632",
                 "image_url": "https://cdn.thingiverse.com/renders/ba/3c/23/82/c1/DSC01148_preview_card.jpg",
                 "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:8244",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/renders/0b/81/89/e1/8d/5685458939_6caea09879_o_display_large_display_large.jpg",
+                "title": "Wall mountable bottle opener"
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:1097099",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/renders/76/97/86/20/4a/Thingiverse_Cover_display_large.jpg",
+                "title": "UBO - The Universal Bottle Opener (v1)"
             }
         ],
         "actuation-reach": [],
@@ -256,6 +388,26 @@
                 "design_url": "https://www.thingiverse.com/thing:711671",
                 "image_url": "https://cdn.thingiverse.com/renders/b7/fc/1b/01/68/bottle_cap_wrench_design_giova-remix__Round_preview_card.jpg",
                 "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:403031",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/renders/da/5e/e9/8d/4a/4115_%2BTUO_apritappi_04_display_large.jpg",
+                "title": "Bottle opener"
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:2459294",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/renders/ab/c3/84/8b/56/63f2228e9563e935e3f2418e181124dc_display_large.JPG",
+                "title": "Bottle opener"
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:1097099",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/renders/76/97/86/20/4a/Thingiverse_Cover_display_large.jpg",
+                "title": "UBO - The Universal Bottle Opener (v1)"
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:3581044",
+                "image_url": "https://cdn.thingiverse.com/renders/ee/f6/f3/ef/b4/84a9341e994e71ff082cdea3415ce54f_preview_card.jpg",
+                "title": "INNER PULL TOP OPENER"
             }
         ],
         "actuation-reach": [
@@ -280,47 +432,47 @@
             {
                 "design_url": "https://www.thingiverse.com/thing:3043598",
                 "image_url": "https://cdn.thingiverse.com/renders/28/c0/07/6d/2b/d294849094b7b97edbfba502f595698f_preview_card.JPG",
-                "title": ""
+                "title": "Pop-top Can and Bottle Opener"
             },
             {
                 "design_url": "https://www.thingiverse.com/thing:1097099",
                 "image_url": "https://cdn.thingiverse.com/renders/76/97/86/20/4a/Thingiverse_Cover_preview_card.jpg",
-                "title": ""
+                "title": "UBO - The Universal Bottle Opener (v1)"
             },
             {
                 "design_url": "https://www.thingiverse.com/thing:2457756",
                 "image_url": "https://cdn.thingiverse.com/renders/09/b5/ad/75/ec/f625a0110b8321df9bc6a4fd99698e74_preview_card.jpg",
-                "title": ""
+                "title": "Nintendo Switch Joy Con Drink Holder"
             },
             {
                 "design_url": "https://www.thingiverse.com/thing:5195705",
                 "image_url": "https://cdn.thingiverse.com/assets/4a/86/b2/46/e9/card_preview_Can_Holder_III.jpg",
-                "title": ""
+                "title": "Can Holder"
             },
             {
                 "design_url": "https://www.thingiverse.com/thing:4081042",
                 "image_url": "https://cdn.thingiverse.com/assets/ca/a0/30/b2/12/card_preview_IMG_2909.JPG",
-                "title": ""
+                "title": "Pull-Tab CAN Opener"
             },
             {
                 "design_url": "https://www.thingiverse.com/thing:1074847",
                 "image_url": "https://cdn.thingiverse.com/renders/0c/c9/f8/9a/2b/IMG_20151015_205258298_preview_card.jpg",
-                "title": ""
+                "title": "Pluck"
             },
             {
                 "design_url": "https://www.thingiverse.com/thing:4056925",
                 "image_url": "https://cdn.thingiverse.com/assets/83/36/0e/58/66/card_preview_A.JPG",
-                "title": ""
+                "title": "Suitable can opener 01"
             },
             {
                 "design_url": "https://www.thingiverse.com/thing:4835690",
                 "image_url": "https://cdn.thingiverse.com/assets/9c/d9/5e/8f/79/card_preview_dde2cac0-d25d-4cca-b6e7-8fe2aeb839b3.JPEG",
-                "title": ""
+                "title": "Easy Can Opener Extension"
             },
             {
                 "design_url": "https://www.thingiverse.com/thing:2960194",
                 "image_url": "https://cdn.thingiverse.com/renders/7a/e6/11/6e/c0/abf89f6b7ca72cc7fd4e6162c6110094_preview_card.jpg",
-                "title": ""
+                "title": "Pop Can Opener"
             },
             {
                 "design_url": "https://www.thingiverse.com/thing:1104936",
@@ -330,7 +482,17 @@
             {
                 "design_url": "https://www.thingiverse.com/thing:4080120",
                 "image_url": "https://cdn.thingiverse.com/assets/24/fa/b0/01/e3/card_preview_P%C3%A2t%C3%A9.JPG",
-                "title": ""
+                "title": "Suitable travel can opener"
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:4632787",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/assets/d8/2a/39/36/e9/large_display_co2.jpg",
+                "title": "Can opener"
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:5386671",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/assets/4b/b3/bb/63/00/large_display_20220516_100455.jpg",
+                "title": "Can opener and lid"
             }
         ],
         "actuation-reach": [],
@@ -343,33 +505,7 @@
             {
                 "design_url": "https://www.thingiverse.com/thing:4223780",
                 "image_url": "https://cdn.thingiverse.com/assets/2a/24/a1/7f/62/card_preview_90085844_211047486634488_3888945027983867904_n.jpg",
-                "title": ""
-            }
-        ],
-        "actuation-reach": [],
-        "constraint": [],
-        "indication-visual": [],
-        "indication-tactile": []
-    },
-    "bottle__plasiic": {
-        "actuation-operation": [
-            {
-                "design_url": "https://www.thingiverse.com/thing:1097099",
-                "image_url": "https://cdn.thingiverse.com/renders/76/97/86/20/4a/Thingiverse_Cover_preview_card.jpg",
-                "title": ""
-            }
-        ],
-        "actuation-reach": [],
-        "constraint": [],
-        "indication-visual": [],
-        "indication-tactile": []
-    },
-    "bottle__pull_top": {
-        "actuation-operation": [
-            {
-                "design_url": "https://www.thingiverse.com/thing:3581044",
-                "image_url": "https://cdn.thingiverse.com/renders/ee/f6/f3/ef/b4/84a9341e994e71ff082cdea3415ce54f_preview_card.jpg",
-                "title": ""
+                "title": "Liquid soap/hand sanitizer dispenser for single hand"
             }
         ],
         "actuation-reach": [],
@@ -585,6 +721,11 @@
                 "design_url": "https://www.thingiverse.com/thing:4924800",
                 "image_url": "https://cdn.thingiverse.com/assets/b0/b0/28/74/d4/card_preview_Switchplate-Icon-Thingiverse-04.jpg",
                 "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:1113106",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/renders/d8/10/41/b6/fb/SwitchCoverSideView_display_large.jpg",
+                "title": "Light Switch Cover"
             }
         ],
         "indication-tactile": [
@@ -592,6 +733,11 @@
                 "design_url": "https://www.thingiverse.com/thing:4924800",
                 "image_url": "https://cdn.thingiverse.com/assets/b0/b0/28/74/d4/card_preview_Switchplate-Icon-Thingiverse-04.jpg",
                 "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:1113106",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/renders/d8/10/41/b6/fb/SwitchCoverSideView_display_large.jpg",
+                "title": "Light Switch Cover"
             }
         ]
     },
@@ -633,8 +779,20 @@
                 "title": ""
             }
         ],
-        "indication-visual": [],
-        "indication-tactile": []
+        "indication-visual": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:5437867",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95/https://cdn.thingiverse.com/assets/3d/39/07/eb/22/large_display_20220720_175423.jpg",
+                "title": "Switch Tag V2"
+            }
+        ],
+        "indication-tactile": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:5437867",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95/https://cdn.thingiverse.com/assets/3d/39/07/eb/22/large_display_20220720_175423.jpg",
+                "title": "Switch Tag V2"
+            }
+        ]
     },
     "electric_outlet": {
         "actuation-operation": [],
@@ -755,6 +913,16 @@
                 "design_url": "https://www.thingiverse.com/thing:3294279",
                 "image_url": "https://cdn.thingiverse.com/renders/a5/0f/3b/af/73/082031d10096d782d76d72b693d9f85c_preview_card.JPG",
                 "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:1012788",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/renders/9f/6e/49/51/dd/DSC_2498_display_large.JPG",
+                "title": "Kitty Phone Holder"
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:1389168",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/renders/63/1b/c8/0d/ad/3ec2d594af004c80caa0cac279e67618_display_large.jpg",
+                "title": "Tablet Holder 6"
             }
         ],
         "actuation-reach": [],
@@ -1360,7 +1528,7 @@
             {
                 "design_url": "https://www.thingiverse.com/thing:3021066",
                 "image_url": "https://cdn.thingiverse.com/renders/a6/8d/35/2d/3a/6adb6909946e636b2206745c67fc24b4_preview_card.jpg",
-                "title": ""
+                "title": "Enfile-bouton / Button hook"
             }
         ],
         "actuation-reach": [],
@@ -1425,9 +1593,7 @@
         "indication-tactile": []
     },
     "book": {
-        "actuation-operation": [],
-        "actuation-reach": [],
-        "constraint": [
+        "actuation-operation": [
             {
                 "design_url": "https://www.thingiverse.com/thing:2105202",
                 "image_url": "https://cdn.thingiverse.com/renders/b5/e8/5e/f4/f4/ca5c0f7dc6065bcd26df3c64e9a6a194_preview_card.jpg",
@@ -1437,8 +1603,15 @@
                 "design_url": "https://www.thingiverse.com/thing:2752344",
                 "image_url": "https://cdn.thingiverse.com/renders/80/52/d5/a5/d2/7f1956e71e7bbcc3d45373ebc0f1832f_preview_card.jpg",
                 "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:1503676",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/renders/14/97/bc/fb/bc/07a19e7a8cdbe507590357b9c5d97981_display_large.jpg",
+                "title": "Pages holder"
             }
         ],
+        "actuation-reach": [],
+        "constraint": [],
         "indication-visual": [],
         "indication-tactile": []
     },
@@ -1476,6 +1649,21 @@
                 "design_url": "https://www.thingiverse.com/thing:1261318",
                 "image_url": "https://cdn.thingiverse.com/renders/8c/53/8e/8e/a0/72a2c10db146457a7e931d0cc6a3ea99_preview_card.JPG",
                 "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:6283947",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/assets/76/66/0c/ef/a0/large_display_6139684c-e42c-447a-81b3-90d0d02e2314.jpg",
+                "title": "toothpaste squeezer vtsr8"
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:3377436",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/renders/b8/bd/80/64/18/4e9bca356a9ce395d21ce3ac58fcc046_display_large.jpg",
+                "title": "Toothpaste Dispenser"
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:4731772",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/assets/69/bf/84/9b/96/large_display_PasteRoller_4.png",
+                "title": "Toothpaste squeeze holder"
             }
         ],
         "actuation-reach": [],
@@ -1654,17 +1842,267 @@
         "indication-visual": [],
         "indication-tactile": []
     },
-    "hair_dryer":{
+    "hair_dryer": {
         "actuation-operation": [
             {
                 "design_url": "https://www.thingiverse.com/thing:1846213",
                 "image_url": "https://cdn.thingiverse.com/renders/06/aa/d9/6e/49/aba9effdc83edb0deb42ea73b8e25ca3_preview_featured.JPG",
-                "title": "https://www.thingiverse.com/thing:1846213"
+                "title": "Hair Dryer Holster (Holder) with slot and wide set screws"
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:6305650",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/assets/e7/e2/21/5b/0c/ce636263-08a8-4ec9-bb99-0272500f5dcb.webp",
+                "title": "Hairdryer adjustable stand-holder"
             }
         ],
         "actuation-reach": [],
         "constraint": [],
         "indication-visual": [],
+        "indication-tactile": []
+    },
+    "microwave": {
+        "actuation-operation": [],
+        "actuation-reach": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:642874",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=90,width=863,height=486/https://cdn.thingiverse.com/renders/88/f6/9f/14/6d/DSCN3662_display_large.JPG",
+                "title": "Microwave Door Opener"
+            }
+        ],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "stove": {
+        "actuation-operation": [],
+        "actuation-reach": [],
+        "constraint": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:1096185",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=90,width=863,height=486/https://cdn.thingiverse.com/renders/34/17/e4/ce/2c/IMG_20151027_163034_display_large.jpg",
+                "title": "Child Safety Stove Knob Protectors"
+            }
+        ],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "button_panel_turn_handle": {
+        "actuation-operation": [],
+        "actuation-reach": [],
+        "constraint": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:1096185",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=90,width=863,height=486/https://cdn.thingiverse.com/renders/34/17/e4/ce/2c/IMG_20151027_163034_display_large.jpg",
+                "title": "Child Safety Stove Knob Protectors"
+            }
+        ],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "toilet": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:6287746",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/assets/55/cf/55/29/57/large_display_535a67fc-053f-4e1b-a30f-174af6962adf.jpeg",
+                "title": "and yet another toiletpaper holder"
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:3723183",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/renders/17/72/5a/ca/b9/dc1891dd222d3907889481ce64467e00_display_large.jpg",
+                "title": "Universal Toilet Paper Cat Guard"
+            }
+        ],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "shopping_bag": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:597043",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/renders/7b/2c/5a/eb/e6/IMGP0625_display_large.jpg",
+                "title": "Shopping Bag Handle"
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:26767",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/renders/e4/97/5d/e4/be/small_display_large.jpg",
+                "title": "Bag Holder - Shopping Handle"
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:2801108",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/renders/bb/2d/73/fb/bd/9f1ca9c45c36994d0ecbfbbf26c8bd13_display_large.jpg",
+                "title": "Bag Carrier"
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "plastic_bag": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:4941713",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/assets/b4/e0/a8/bc/1e/large_display_title2.png",
+                "title": "Garbage Bag Holder"
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:597043",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/renders/7b/2c/5a/eb/e6/IMGP0625_display_large.jpg",
+                "title": "Shopping Bag Handle"
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:26767",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/renders/e4/97/5d/e4/be/small_display_large.jpg",
+                "title": "Bag Holder - Shopping Handle"
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:2801108",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/renders/bb/2d/73/fb/bd/9f1ca9c45c36994d0ecbfbbf26c8bd13_display_large.jpg",
+                "title": "Bag Carrier"
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "phone": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:1012788",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/renders/9f/6e/49/51/dd/DSC_2498_display_large.JPG",
+                "title": "Kitty Phone Holder"
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:1389168",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/renders/63/1b/c8/0d/ad/3ec2d594af004c80caa0cac279e67618_display_large.jpg",
+                "title": "Tablet Holder 6"
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "cable": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:2481258",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/renders/64/c5/37/f6/04/3ceb45bce534e6974e90db5b4cd4d200_display_large.JPG",
+                "title": "Cable Holder"
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [
+            {
+                "design_url": "https://www.printables.com/en/model/606809-configurable-cable-label",
+                "image_url": "https://media.printables.com/media/prints/606809/images/4823720_e44674a3-e894-4662-9834-5ace609f6c24_231f5462-10e2-4334-b0d2-1c1405675b95/thumbs/inside/1600x1200/jpg/p1399037-1280x721.webp",
+                "title": "Configurable cable label"
+            }
+        ],
+        "indication-tactile": []
+    },
+    "charger": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:2481258",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/renders/64/c5/37/f6/04/3ceb45bce534e6974e90db5b4cd4d200_display_large.JPG",
+                "title": "Cable Holder"
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "shelve": {
+        "actuation-operation": [],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:4141919",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/assets/4e/f0/2b/78/a7/large_display_IMG_20200203_115429.jpg",
+                "title": "Stickable label holder"
+            },
+            {
+                "design_url": "https://www.printables.com/en/model/179940-magnetic-label-holder-with-glass-insert-magnetisch",
+                "image_url": "https://media.printables.com/media/prints/179940/images/1689474_c8a94067-c72f-478f-86d5-b90cedf1344e/thumbs/inside/1600x1200/jpg/img_20220428_104518_1.webp",
+                "title": "Magnetic Label holder with glass insert / Magnetisches Schild mit Glas Einsatz"
+            }
+        ],
+        "indication-tactile": []
+    },
+    "sofa": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:2415482",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/renders/0e/83/91/b8/4e/c58201f1554476cdb2238a72fe8ea6a7_display_large.jpg",
+                "title": "Sofa Cup Holder"
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:3795538",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/renders/d2/16/b7/64/38/51c11b4dd2b27749853d248780866478_display_large.jpg",
+                "title": "Ikea Ektorp Sofa Cup Holder"
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:5159462",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/assets/38/67/6f/87/e6/large_display_photo_2021-12-09_10-03-19.jpg",
+                "title": "Beer Sofa Holder"
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "chair": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:2497718",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/renders/49/7f/7b/9e/95/d2a0e369893325966d7fbf290544978c_display_large.JPG",
+                "title": "Adirondak Chair Cup Holder"
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:5821533",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/assets/4c/a4/15/e7/a1/large_display_f8c527d5-fb2e-4273-9936-baaf701170be.jpg",
+                "title": "Kitten Mitten Chair Guard"
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:4849938",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/assets/26/25/2d/ad/4d/large_display_91678a59-ccf2-4ab0-986a-86e5fa9967ac.jpg",
+                "title": "Chair Wheel Stopper"
+            },
+            {
+                "design_url": "https://www.printables.com/en/model/553936-furniture-round-leg-wide-base",
+                "image_url": "https://media.printables.com/media/prints/553936/images/4445959_b2c026e2-9fe9-4606-a226-3ea1433e252c/thumbs/inside/1600x1200/jpeg/img_1731.webp",
+                "title": "Furniture round leg wide base"
+            }
+        ],
+        "indication-visual": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:4785928",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/assets/18/88/5f/a1/d4/large_display_IMG_0439.jpg",
+                "title": "Sim Racing Chair Stopper"
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:4739995",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/assets/df/c4/76/27/71/large_display_IMG_20210127_182945-min.jpg",
+                "title": "Chair Stop 60mm for Simracing"
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:2973111",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/renders/14/b4/bb/49/24/1a54dac47e6f16ec81289a8e4f941183_display_large.jpg",
+                "title": "Desk chair stopper"
+            }
+        ],
         "indication-tactile": []
     }
 }

@@ -1,0 +1,1670 @@
+{
+    "handle__lever": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:4225872",
+                "image_url": "https://cdn.thingiverse.com/assets/4f/5f/32/ba/fd/featured_preview_IMG_5719.JPEG",
+                "title": ""
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:4192643",
+                "image_url": "https://cdn.thingiverse.com/assets/68/e4/cf/49/d7/card_preview_Photo-2020-03-03-07-57-15_9752.JPG",
+                "title": ""
+            }
+        ],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "door": {
+        "actuation-operation": [],
+        "actuation-reach": [],
+        "constraint": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:200571",
+                "image_url": "https://cdn.thingiverse.com/renders/f2/7e/d3/18/81/Picture_4_small_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:891278",
+                "image_url": "https://cdn.thingiverse.com/renders/25/85/bd/64/a4/apart_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:4734183",
+                "image_url": "https://cdn.thingiverse.com/assets/3b/43/f7/dd/df/card_preview_DoorHolder.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:3149086",
+                "image_url": "https://cdn.thingiverse.com/renders/f6/ca/66/9f/10/7d6dd054eece5c7f4d3120a2decd6af2_preview_featured.JPG",
+                "title": "door bumper"
+            }
+        ],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "knob__rotate_round": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:1094505",
+                "image_url": "https://cdn.thingiverse.com/renders/68/94/7d/e7/dc/20151026_191242_HDR_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:1095439",
+                "image_url": "https://cdn.thingiverse.com/renders/1d/1f/3a/cb/3e/20151027_112149_preview_card.jpg",
+                "title": ""
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "cabinet": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:1228617",
+                "image_url": "https://cdn.thingiverse.com/renders/83/90/3b/61/0c/fdb37c1d7cf2f2f2ac1c850a80a12ed4_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:976006",
+                "image_url": "https://cdn.thingiverse.com/renders/40/25/40/a5/e3/Hadles_preview_card.jpg",
+                "title": ""
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:28037",
+                "image_url": "https://cdn.thingiverse.com/renders/2a/3b/bd/5d/4e/mylock_preview_card.jpg",
+                "title": ""
+            }
+        ],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "cupboard": {
+        "actuation-operation": [],
+        "actuation-reach": [],
+        "constraint": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:28037",
+                "image_url": "https://cdn.thingiverse.com/renders/2a/3b/bd/5d/4e/mylock_preview_card.jpg",
+                "title": ""
+            }
+        ],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "drawer": {
+        "actuation-operation": [],
+        "actuation-reach": [],
+        "constraint": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:3075157",
+                "image_url": "https://cdn.thingiverse.com/renders/97/a7/63/61/53/44571f5c9782baea00e55cca337adb0e_preview_featured.jpg",
+                "title": "magnetic drawer lock"
+            }
+        ],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "handle__bar_small": {
+        "actuation-operation": [
+            {
+                "design_url": "https://pinshape.com/items/25355-3d-printed-drawer-opening-assitive-device",
+                "image_url": "https://assets.pinshape.com/uploads/image/file/97323/container_drawer-opening-assitive-device-3d-printing-97323.jpg",
+                "title": ""
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "handle__flush_pull": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:1228617",
+                "image_url": "https://cdn.thingiverse.com/renders/83/90/3b/61/0c/fdb37c1d7cf2f2f2ac1c850a80a12ed4_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:976006",
+                "image_url": "https://cdn.thingiverse.com/renders/40/25/40/a5/e3/Hadles_preview_card.jpg",
+                "title": ""
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "knob__static": {
+        "actuation-operation": [],
+        "actuation-reach": [],
+        "constraint": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:2320880",
+                "image_url": "https://cdn.thingiverse.com/renders/1a/5f/c2/b8/0a/3cd8926699ca33b35c4b212e764e1f9b_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:2365101",
+                "image_url": "https://cdn.thingiverse.com/renders/74/67/3d/8d/34/89ba6c31a008c0b2c90bfe220d134755_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:36650",
+                "image_url": "https://cdn.thingiverse.com/renders/ec/30/e2/26/61/IMG_1795_preview_card.jpg",
+                "title": ""
+            }
+        ],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "jar": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:3198907",
+                "image_url": "https://cdn.thingiverse.com/renders/de/d8/4a/bc/7a/808daa6ff9fed79084f3ac01d08b0826_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:4877138",
+                "image_url": "https://cdn.thingiverse.com/assets/c2/67/7c/a3/43/card_preview_Screenshot_2021-06-03_175616.png",
+                "title": ""
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "pack": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:3303124",
+                "image_url": "https://cdn.thingiverse.com/assets/19/da/75/50/94/card_preview_IMG_2169.jpg",
+                "title": ""
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "bottle__spray": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:2240803",
+                "image_url": "https://cdn.thingiverse.com/renders/62/10/2c/76/9e/d00d3b8e0eb0d4ded8df16f34d21fec8_preview_card.jpg",
+                "title": ""
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "bottle__metal_cap": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:269463",
+                "image_url": "https://cdn.thingiverse.com/renders/39/2c/d9/ae/5e/IMG_8993_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:132632",
+                "image_url": "https://cdn.thingiverse.com/renders/ba/3c/23/82/c1/DSC01148_preview_card.jpg",
+                "title": ""
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "bottle__plastic": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:2801157",
+                "image_url": "https://cdn.thingiverse.com/renders/d9/de/2a/10/a9/2ffc3bc102fd64dacec38e0025c89143_preview_card.JPG",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:1632743",
+                "image_url": "https://cdn.thingiverse.com/renders/41/5b/9d/89/03/7fffb663120dd173020ed4b9bc223583_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:4841019",
+                "image_url": "https://cdn.thingiverse.com/assets/e4/0c/52/61/c0/card_preview_Bottle_Cap_Aid_2021-Apr-26_11-56-17PM-000_CustomizedView39032471076.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:3456941",
+                "image_url": "https://cdn.thingiverse.com/renders/ab/64/73/5e/ef/2dd8d282779995d347dfe0b036e828cd_preview_card.JPG",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:711671",
+                "image_url": "https://cdn.thingiverse.com/renders/b7/fc/1b/01/68/bottle_cap_wrench_design_giova-remix__Round_preview_card.jpg",
+                "title": ""
+            }
+        ],
+        "actuation-reach": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:2849877",
+                "image_url": "https://cdn.thingiverse.com/renders/ff/8c/51/75/ee/e2181ef64ef69ae511ca7036d972c1b5_preview_card.JPG",
+                "title": ""
+            }
+        ],
+        "constraint": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:2707972",
+                "image_url": "https://cdn.thingiverse.com/renders/28/37/d5/e6/41/c7937ab9e6d513e25b416bd9a4910604_preview_card.jpg",
+                "title": ""
+            }
+        ],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "can": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:3043598",
+                "image_url": "https://cdn.thingiverse.com/renders/28/c0/07/6d/2b/d294849094b7b97edbfba502f595698f_preview_card.JPG",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:1097099",
+                "image_url": "https://cdn.thingiverse.com/renders/76/97/86/20/4a/Thingiverse_Cover_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:2457756",
+                "image_url": "https://cdn.thingiverse.com/renders/09/b5/ad/75/ec/f625a0110b8321df9bc6a4fd99698e74_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:5195705",
+                "image_url": "https://cdn.thingiverse.com/assets/4a/86/b2/46/e9/card_preview_Can_Holder_III.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:4081042",
+                "image_url": "https://cdn.thingiverse.com/assets/ca/a0/30/b2/12/card_preview_IMG_2909.JPG",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:1074847",
+                "image_url": "https://cdn.thingiverse.com/renders/0c/c9/f8/9a/2b/IMG_20151015_205258298_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:4056925",
+                "image_url": "https://cdn.thingiverse.com/assets/83/36/0e/58/66/card_preview_A.JPG",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:4835690",
+                "image_url": "https://cdn.thingiverse.com/assets/9c/d9/5e/8f/79/card_preview_dde2cac0-d25d-4cca-b6e7-8fe2aeb839b3.JPEG",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:2960194",
+                "image_url": "https://cdn.thingiverse.com/renders/7a/e6/11/6e/c0/abf89f6b7ca72cc7fd4e6162c6110094_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:1104936",
+                "image_url": "https://cdn.thingiverse.com/renders/b1/c7/a9/6e/81/IMG_2863_preview_card.JPG",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:4080120",
+                "image_url": "https://cdn.thingiverse.com/assets/24/fa/b0/01/e3/card_preview_P%C3%A2t%C3%A9.JPG",
+                "title": ""
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "bottle__pump": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:4223780",
+                "image_url": "https://cdn.thingiverse.com/assets/2a/24/a1/7f/62/card_preview_90085844_211047486634488_3888945027983867904_n.jpg",
+                "title": ""
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "bottle__plasiic": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:1097099",
+                "image_url": "https://cdn.thingiverse.com/renders/76/97/86/20/4a/Thingiverse_Cover_preview_card.jpg",
+                "title": ""
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "bottle__pull_top": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:3581044",
+                "image_url": "https://cdn.thingiverse.com/renders/ee/f6/f3/ef/b4/84a9341e994e71ff082cdea3415ce54f_preview_card.jpg",
+                "title": ""
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "cup__no_handle": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:310961",
+                "image_url": "https://cdn.thingiverse.com/renders/ee/19/0b/85/2f/d__1_sur_1__preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:2849803",
+                "image_url": "https://cdn.thingiverse.com/renders/7f/9e/8e/34/1e/766fcfe23d6262d856a9946271eda6bc_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:4268140",
+                "image_url": "https://cdn.thingiverse.com/assets/16/ff/9a/ab/f0/card_preview__MG_2241.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:1055594",
+                "image_url": "https://cdn.thingiverse.com/renders/7e/ca/67/15/f8/IMG_1022_preview_card.JPG",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:1102780",
+                "image_url": "https://cdn.thingiverse.com/renders/6a/69/43/a2/eb/suporte_copo_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:3022034",
+                "image_url": "https://cdn.thingiverse.com/renders/2a/cf/69/20/3e/f2a852df86282495e84000d3736ef4c9_preview_card.jpg",
+                "title": ""
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "bowl": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:2968238",
+                "image_url": "https://cdn.thingiverse.com/renders/c1/4d/82/91/a1/66fa4d9467a29ee1fad23278ca1796a4_preview_card.jpg",
+                "title": ""
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "chapsticks": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:1024981",
+                "image_url": "https://cdn.thingiverse.com/renders/f2/d1/5e/c5/ae/chaet_sticks_preview_card.jpg",
+                "title": ""
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "switch__toggle_multi": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:5143727",
+                "image_url": "https://cdn.thingiverse.com/assets/3b/46/ba/52/41/card_preview_gears_switch_2.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:653451",
+                "image_url": "https://cdn.thingiverse.com/renders/f7/57/47/3e/5b/IMAG0036_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:1215328",
+                "image_url": "https://cdn.thingiverse.com/renders/30/68/fe/78/d0/image_preview_card.jpeg",
+                "title": ""
+            }
+        ],
+        "actuation-reach": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:658859",
+                "image_url": "https://cdn.thingiverse.com/renders/c9/59/97/86/77/photo_preview_card.jpg",
+                "title": ""
+            }
+        ],
+        "constraint": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:134995",
+                "image_url": "https://cdn.thingiverse.com/renders/18/1e/f1/1f/f6/IMG_20130816_190229_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:4928263",
+                "image_url": "https://cdn.thingiverse.com/assets/df/24/46/08/a1/card_preview_20210809_103117.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:5222995",
+                "image_url": "https://cdn.thingiverse.com/assets/0a/2c/5e/41/da/card_preview_Switch_Guard_Front_Up.png",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:2274280",
+                "image_url": "https://cdn.thingiverse.com/renders/9e/69/18/9a/58/f1d3be926eb03fb49e24db162c6148d6_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:69806",
+                "image_url": "https://cdn.thingiverse.com/renders/56/04/dc/fd/af/IMG_20130404_162639_preview_card.jpg",
+                "title": ""
+            }
+        ],
+        "indication-visual": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:4924800",
+                "image_url": "https://cdn.thingiverse.com/assets/b0/b0/28/74/d4/card_preview_Switchplate-Icon-Thingiverse-04.jpg",
+                "title": ""
+            }
+        ],
+        "indication-tactile": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:4924800",
+                "image_url": "https://cdn.thingiverse.com/assets/b0/b0/28/74/d4/card_preview_Switchplate-Icon-Thingiverse-04.jpg",
+                "title": ""
+            }
+        ]
+    },
+    "switch__toggle_single": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:3783279",
+                "image_url": "https://cdn.thingiverse.com/renders/3a/db/27/ef/05/5e674b5a2103b72c928d9f2191c65f8b_preview_card.JPG",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:1904518",
+                "image_url": "https://cdn.thingiverse.com/renders/b9/2e/79/9e/5c/6dd01b94439fb480291d44d8b68a7ed9_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:649284",
+                "image_url": "https://cdn.thingiverse.com/renders/66/a7/36/f5/56/switchplate2_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:5143727",
+                "image_url": "https://cdn.thingiverse.com/assets/3b/46/ba/52/41/card_preview_gears_switch_2.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:653451",
+                "image_url": "https://cdn.thingiverse.com/renders/f7/57/47/3e/5b/IMAG0036_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:1215328",
+                "image_url": "https://cdn.thingiverse.com/renders/30/68/fe/78/d0/image_preview_card.jpeg",
+                "title": ""
+            }
+        ],
+        "actuation-reach": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:658859",
+                "image_url": "https://cdn.thingiverse.com/renders/c9/59/97/86/77/photo_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:1805790",
+                "image_url": "https://cdn.thingiverse.com/renders/a9/ee/7f/68/f9/071b74d7afe4659015a47392445bafb5_preview_card.jpg",
+                "title": ""
+            }
+        ],
+        "constraint": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:134995",
+                "image_url": "https://cdn.thingiverse.com/renders/18/1e/f1/1f/f6/IMG_20130816_190229_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:4928263",
+                "image_url": "https://cdn.thingiverse.com/assets/df/24/46/08/a1/card_preview_20210809_103117.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:5222995",
+                "image_url": "https://cdn.thingiverse.com/assets/0a/2c/5e/41/da/card_preview_Switch_Guard_Front_Up.png",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:2274280",
+                "image_url": "https://cdn.thingiverse.com/renders/9e/69/18/9a/58/f1d3be926eb03fb49e24db162c6148d6_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:69806",
+                "image_url": "https://cdn.thingiverse.com/renders/56/04/dc/fd/af/IMG_20130404_162639_preview_card.jpg",
+                "title": ""
+            }
+        ],
+        "indication-visual": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:4924800",
+                "image_url": "https://cdn.thingiverse.com/assets/b0/b0/28/74/d4/card_preview_Switchplate-Icon-Thingiverse-04.jpg",
+                "title": ""
+            }
+        ],
+        "indication-tactile": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:4924800",
+                "image_url": "https://cdn.thingiverse.com/assets/b0/b0/28/74/d4/card_preview_Switchplate-Icon-Thingiverse-04.jpg",
+                "title": ""
+            }
+        ]
+    },
+    "switch__rocker_single": {
+        "actuation-operation": [],
+        "actuation-reach": [],
+        "constraint": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:3061443",
+                "image_url": "https://cdn.thingiverse.com/renders/4e/8b/97/c2/ff/99b7794556830e35f25d1f8162744f8f_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:2385820",
+                "image_url": "",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:4944728",
+                "image_url": "https://cdn.thingiverse.com/assets/80/fc/c4/42/f5/card_preview_opencover.jpg",
+                "title": ""
+            }
+        ],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "switch__rocker_multi": {
+        "actuation-operation": [],
+        "actuation-reach": [],
+        "constraint": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:2385820",
+                "image_url": "",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:4944728",
+                "image_url": "https://cdn.thingiverse.com/assets/80/fc/c4/42/f5/card_preview_opencover.jpg",
+                "title": ""
+            }
+        ],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "electric_outlet": {
+        "actuation-operation": [],
+        "actuation-reach": [],
+        "constraint": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:272419",
+                "image_url": "https://cdn.thingiverse.com/renders/6e/fc/68/8a/86/DSC_0125_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:2987347",
+                "image_url": "https://cdn.thingiverse.com/renders/09/92/83/d5/d2/2200cea6af3b92a33ced92e8aa83b8e9_preview_card.JPG",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:2719252",
+                "image_url": "https://cdn.thingiverse.com/renders/f6/79/aa/38/de/9b437a7d7cc48ee1df736a372e866c27_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:4658970",
+                "image_url": "https://cdn.thingiverse.com/assets/ac/f5/12/fd/db/card_preview_SchukoCover.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:4088052",
+                "image_url": "https://cdn.thingiverse.com/assets/35/d1/5b/99/81/card_preview_P1290085_cropped.JPG",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:5444424",
+                "image_url": "https://cdn.thingiverse.com/assets/db/c9/36/a1/68/card_preview_ac_outlet.jpeg",
+                "title": ""
+            }
+        ],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "bag": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:26767",
+                "image_url": "https://cdn.thingiverse.com/renders/e4/97/5d/e4/be/small_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:597043",
+                "image_url": "https://cdn.thingiverse.com/renders/7b/2c/5a/eb/e6/IMGP0625_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:3057298",
+                "image_url": "https://cdn.thingiverse.com/renders/21/c1/62/17/be/c7050f90df70433f3d04c62ec8875a24_preview_card.jpg",
+                "title": ""
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "zipper": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:1103082",
+                "image_url": "https://cdn.thingiverse.com/renders/ef/fa/1a/ff/96/IMG_4365_preview_card.JPG",
+                "title": ""
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "smartphone": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:1319883",
+                "image_url": "https://cdn.thingiverse.com/renders/c0/9e/e3/46/92/d27359eb000a9aa335d8251487a6e3cc_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:3294279",
+                "image_url": "https://cdn.thingiverse.com/renders/a5/0f/3b/af/73/082031d10096d782d76d72b693d9f85c_preview_card.JPG",
+                "title": ""
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:4614448",
+                "image_url": "https://cdn.thingiverse.com/assets/9c/94/be/81/c8/card_preview_IMG_20201008_215807.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:2120591",
+                "image_url": "https://cdn.thingiverse.com/renders/61/38/67/0b/f5/4e4b56b01a52f99f1475d9cdcaf53120_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:2448971",
+                "image_url": "https://cdn.thingiverse.com/renders/07/54/ae/94/46/a566bce5257862b931e23823f9ca743e_preview_card.jpg",
+                "title": ""
+            }
+        ],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "tablet": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:1319883",
+                "image_url": "https://cdn.thingiverse.com/renders/c0/9e/e3/46/92/d27359eb000a9aa335d8251487a6e3cc_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:3294279",
+                "image_url": "https://cdn.thingiverse.com/renders/a5/0f/3b/af/73/082031d10096d782d76d72b693d9f85c_preview_card.JPG",
+                "title": ""
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:4614448",
+                "image_url": "https://cdn.thingiverse.com/assets/9c/94/be/81/c8/card_preview_IMG_20201008_215807.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:2120591",
+                "image_url": "https://cdn.thingiverse.com/renders/61/38/67/0b/f5/4e4b56b01a52f99f1475d9cdcaf53120_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:2448971",
+                "image_url": "https://cdn.thingiverse.com/renders/07/54/ae/94/46/a566bce5257862b931e23823f9ca743e_preview_card.jpg",
+                "title": ""
+            }
+        ],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "laptop": {
+        "actuation-operation": [],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:4074766",
+                "image_url": "https://cdn.thingiverse.com/assets/89/78/96/d3/11/card_preview_2019-08-27_10.02.32.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:3186386",
+                "image_url": "https://cdn.thingiverse.com/renders/cd/45/c6/e5/8b/6b8ce67781af9a4ad500f93439dd68da_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:3619148",
+                "image_url": "https://cdn.thingiverse.com/renders/65/8f/a0/27/18/086af41b71aac93f8103ea3799010702_preview_card.jpg",
+                "title": ""
+            }
+        ]
+    },
+    "keyboard": {
+        "actuation-operation": [],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:4074766",
+                "image_url": "https://cdn.thingiverse.com/assets/89/78/96/d3/11/card_preview_2019-08-27_10.02.32.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:3186386",
+                "image_url": "https://cdn.thingiverse.com/renders/cd/45/c6/e5/8b/6b8ce67781af9a4ad500f93439dd68da_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:3619148",
+                "image_url": "https://cdn.thingiverse.com/renders/65/8f/a0/27/18/086af41b71aac93f8103ea3799010702_preview_card.jpg",
+                "title": ""
+            }
+        ]
+    },
+    "toaster": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:932075",
+                "image_url": "https://cdn.thingiverse.com/renders/1f/10/fb/e3/60/extractor_preview_card.jpg",
+                "title": ""
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "pen": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:1748254",
+                "image_url": "https://cdn.thingiverse.com/renders/46/a7/f5/86/bd/f3ccdd27d2000e3f9255a7e3e2c48800_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:2353621",
+                "image_url": "https://cdn.thingiverse.com/renders/eb/1c/51/3a/c5/abd4345c12f3da58524132b83ed5939f_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:663865",
+                "image_url": "https://cdn.thingiverse.com/renders/c9/8d/b5/94/cb/guidedoigt_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:1104573",
+                "image_url": "https://cdn.thingiverse.com/renders/03/c4/a3/82/37/DSC_2757_p_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:2926643",
+                "image_url": "https://cdn.thingiverse.com/renders/c8/fc/d5/e1/cc/0c856870efe6d3a9bbed3b1c70f6dff8_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:2801185",
+                "image_url": "https://cdn.thingiverse.com/renders/10/ce/07/8c/a7/5c9f99cd02209ef0e938bf2eedbd4cdc_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:2782274",
+                "image_url": "https://cdn.thingiverse.com/renders/b1/e3/de/9a/82/8d72b134cad78ef6dc5de9f39e0d122a_preview_card.jpeg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:2257846",
+                "image_url": "https://cdn.thingiverse.com/assets/94/5b/60/4f/75/2017-03-24_15.24.21.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:1615967",
+                "image_url": "https://cdn.thingiverse.com/renders/4e/b4/5d/a5/1b/513d771d1cf134b6d5752ea062f710e6_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:2228287",
+                "image_url": "https://cdn.thingiverse.com/renders/bb/92/6a/fe/8e/bf8a0b25c78a05a911c7429fe276fc30_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:2936984",
+                "image_url": "https://cdn.thingiverse.com/renders/53/28/39/de/3c/33f9a18ddb9c35d9f5cd331bb7bfff0b_preview_card.JPG",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:3236846",
+                "image_url": "https://cdn.thingiverse.com/renders/38/01/70/3a/1b/af265eae395f2b000ee4f01f67eae333_preview_card.JPG",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:4873185",
+                "image_url": "https://cdn.thingiverse.com/assets/e3/ab/0d/c7/74/card_preview_IMG_20210603_210358_compress54.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:255326",
+                "image_url": "https://cdn.thingiverse.com/renders/c7/9a/e2/64/67/bubble_grip_detail_preview_card.jpg",
+                "title": ""
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "brush": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:1748254",
+                "image_url": "https://cdn.thingiverse.com/renders/46/a7/f5/86/bd/f3ccdd27d2000e3f9255a7e3e2c48800_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:2353621",
+                "image_url": "https://cdn.thingiverse.com/renders/eb/1c/51/3a/c5/abd4345c12f3da58524132b83ed5939f_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:663865",
+                "image_url": "https://cdn.thingiverse.com/renders/c9/8d/b5/94/cb/guidedoigt_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:1104573",
+                "image_url": "https://cdn.thingiverse.com/renders/03/c4/a3/82/37/DSC_2757_p_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:2926643",
+                "image_url": "https://cdn.thingiverse.com/renders/c8/fc/d5/e1/cc/0c856870efe6d3a9bbed3b1c70f6dff8_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:2801185",
+                "image_url": "https://cdn.thingiverse.com/renders/10/ce/07/8c/a7/5c9f99cd02209ef0e938bf2eedbd4cdc_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:2782274",
+                "image_url": "https://cdn.thingiverse.com/renders/b1/e3/de/9a/82/8d72b134cad78ef6dc5de9f39e0d122a_preview_card.jpeg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:2257846",
+                "image_url": "https://cdn.thingiverse.com/assets/94/5b/60/4f/75/2017-03-24_15.24.21.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:1615967",
+                "image_url": "https://cdn.thingiverse.com/renders/4e/b4/5d/a5/1b/513d771d1cf134b6d5752ea062f710e6_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:2228287",
+                "image_url": "https://cdn.thingiverse.com/renders/bb/92/6a/fe/8e/bf8a0b25c78a05a911c7429fe276fc30_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:2936984",
+                "image_url": "https://cdn.thingiverse.com/renders/53/28/39/de/3c/33f9a18ddb9c35d9f5cd331bb7bfff0b_preview_card.JPG",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:3236846",
+                "image_url": "https://cdn.thingiverse.com/renders/38/01/70/3a/1b/af265eae395f2b000ee4f01f67eae333_preview_card.JPG",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:4873185",
+                "image_url": "https://cdn.thingiverse.com/assets/e3/ab/0d/c7/74/card_preview_IMG_20210603_210358_compress54.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:255326",
+                "image_url": "https://cdn.thingiverse.com/renders/c7/9a/e2/64/67/bubble_grip_detail_preview_card.jpg",
+                "title": ""
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "pencil": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:1748254",
+                "image_url": "https://cdn.thingiverse.com/renders/46/a7/f5/86/bd/f3ccdd27d2000e3f9255a7e3e2c48800_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:2353621",
+                "image_url": "https://cdn.thingiverse.com/renders/eb/1c/51/3a/c5/abd4345c12f3da58524132b83ed5939f_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:663865",
+                "image_url": "https://cdn.thingiverse.com/renders/c9/8d/b5/94/cb/guidedoigt_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:1104573",
+                "image_url": "https://cdn.thingiverse.com/renders/03/c4/a3/82/37/DSC_2757_p_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:2926643",
+                "image_url": "https://cdn.thingiverse.com/renders/c8/fc/d5/e1/cc/0c856870efe6d3a9bbed3b1c70f6dff8_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:2801185",
+                "image_url": "https://cdn.thingiverse.com/renders/10/ce/07/8c/a7/5c9f99cd02209ef0e938bf2eedbd4cdc_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:2782274",
+                "image_url": "https://cdn.thingiverse.com/renders/b1/e3/de/9a/82/8d72b134cad78ef6dc5de9f39e0d122a_preview_card.jpeg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:2257846",
+                "image_url": "https://cdn.thingiverse.com/assets/94/5b/60/4f/75/2017-03-24_15.24.21.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:1615967",
+                "image_url": "https://cdn.thingiverse.com/renders/4e/b4/5d/a5/1b/513d771d1cf134b6d5752ea062f710e6_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:2228287",
+                "image_url": "https://cdn.thingiverse.com/renders/bb/92/6a/fe/8e/bf8a0b25c78a05a911c7429fe276fc30_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:2936984",
+                "image_url": "https://cdn.thingiverse.com/renders/53/28/39/de/3c/33f9a18ddb9c35d9f5cd331bb7bfff0b_preview_card.JPG",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:3236846",
+                "image_url": "https://cdn.thingiverse.com/renders/38/01/70/3a/1b/af265eae395f2b000ee4f01f67eae333_preview_card.JPG",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:4873185",
+                "image_url": "https://cdn.thingiverse.com/assets/e3/ab/0d/c7/74/card_preview_IMG_20210603_210358_compress54.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:255326",
+                "image_url": "https://cdn.thingiverse.com/renders/c7/9a/e2/64/67/bubble_grip_detail_preview_card.jpg",
+                "title": ""
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "fork": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:686084",
+                "image_url": "https://cdn.thingiverse.com/renders/35/67/57/71/de/manche_grossi02_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:3903972",
+                "image_url": "https://cdn.thingiverse.com/assets/bd/f4/00/83/fb/card_preview_IMG_2596.JPG",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:3555524",
+                "image_url": "https://cdn.thingiverse.com/renders/3d/97/5e/9c/5b/574e4bc62d667343f400183c9ca55e99_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:1971795",
+                "image_url": "https://cdn.thingiverse.com/renders/7d/e1/a0/77/61/9296576938238e5b3099ca4f06bb0d6e_preview_card.JPG",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:3357957",
+                "image_url": "https://cdn.thingiverse.com/renders/9e/5b/2d/34/8c/d591e7ce0bd1edbffcf3fd2ad327d314_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:2960070",
+                "image_url": "https://cdn.thingiverse.com/renders/ee/e6/35/ae/59/ad8970037f66fd60aed103344cca945d_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:4574423",
+                "image_url": "https://cdn.thingiverse.com/assets/28/8a/c9/31/03/card_preview_Utensil_holder_1.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:1816581",
+                "image_url": "https://cdn.thingiverse.com/renders/cd/12/4a/2d/28/6f74dbd5a7546d6cbd4b78bf53c6542a_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:49936",
+                "image_url": "https://cdn.thingiverse.com/renders/4a/42/44/c9/e7/2013-10-08_13.44.10_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:1049502",
+                "image_url": "https://cdn.thingiverse.com/renders/52/64/db/c0/0d/eating_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:1692456",
+                "image_url": "https://cdn.thingiverse.com/renders/3c/30/d2/4c/6e/071003a9d1015b0972734afc7f7c5ca3_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:3765128",
+                "image_url": "https://cdn.thingiverse.com/assets/e7/0a/f8/19/3c/IMG_4247.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:4314723",
+                "image_url": "https://cdn.thingiverse.com/assets/03/b3/59/03/86/card_preview_2020-04-26_17.08.23.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:1079916",
+                "image_url": "https://cdn.thingiverse.com/renders/c6/52/ac/78/c1/IMG_6965_preview_card.JPG",
+                "title": ""
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "spoon": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:686084",
+                "image_url": "https://cdn.thingiverse.com/renders/35/67/57/71/de/manche_grossi02_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:3903972",
+                "image_url": "https://cdn.thingiverse.com/assets/bd/f4/00/83/fb/card_preview_IMG_2596.JPG",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:3555524",
+                "image_url": "https://cdn.thingiverse.com/renders/3d/97/5e/9c/5b/574e4bc62d667343f400183c9ca55e99_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:1971795",
+                "image_url": "https://cdn.thingiverse.com/renders/7d/e1/a0/77/61/9296576938238e5b3099ca4f06bb0d6e_preview_card.JPG",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:3357957",
+                "image_url": "https://cdn.thingiverse.com/renders/9e/5b/2d/34/8c/d591e7ce0bd1edbffcf3fd2ad327d314_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:2960070",
+                "image_url": "https://cdn.thingiverse.com/renders/ee/e6/35/ae/59/ad8970037f66fd60aed103344cca945d_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:4574423",
+                "image_url": "https://cdn.thingiverse.com/assets/28/8a/c9/31/03/card_preview_Utensil_holder_1.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:1816581",
+                "image_url": "https://cdn.thingiverse.com/renders/cd/12/4a/2d/28/6f74dbd5a7546d6cbd4b78bf53c6542a_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:49936",
+                "image_url": "https://cdn.thingiverse.com/renders/4a/42/44/c9/e7/2013-10-08_13.44.10_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:1049502",
+                "image_url": "https://cdn.thingiverse.com/renders/52/64/db/c0/0d/eating_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:1692456",
+                "image_url": "https://cdn.thingiverse.com/renders/3c/30/d2/4c/6e/071003a9d1015b0972734afc7f7c5ca3_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:3765128",
+                "image_url": "https://cdn.thingiverse.com/assets/e7/0a/f8/19/3c/IMG_4247.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:4314723",
+                "image_url": "https://cdn.thingiverse.com/assets/03/b3/59/03/86/card_preview_2020-04-26_17.08.23.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:1079916",
+                "image_url": "https://cdn.thingiverse.com/renders/c6/52/ac/78/c1/IMG_6965_preview_card.JPG",
+                "title": ""
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "knife": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:686084",
+                "image_url": "https://cdn.thingiverse.com/renders/35/67/57/71/de/manche_grossi02_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:3903972",
+                "image_url": "https://cdn.thingiverse.com/assets/bd/f4/00/83/fb/card_preview_IMG_2596.JPG",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:3555524",
+                "image_url": "https://cdn.thingiverse.com/renders/3d/97/5e/9c/5b/574e4bc62d667343f400183c9ca55e99_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:1971795",
+                "image_url": "https://cdn.thingiverse.com/renders/7d/e1/a0/77/61/9296576938238e5b3099ca4f06bb0d6e_preview_card.JPG",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:3357957",
+                "image_url": "https://cdn.thingiverse.com/renders/9e/5b/2d/34/8c/d591e7ce0bd1edbffcf3fd2ad327d314_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:2960070",
+                "image_url": "https://cdn.thingiverse.com/renders/ee/e6/35/ae/59/ad8970037f66fd60aed103344cca945d_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:4574423",
+                "image_url": "https://cdn.thingiverse.com/assets/28/8a/c9/31/03/card_preview_Utensil_holder_1.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:1816581",
+                "image_url": "https://cdn.thingiverse.com/renders/cd/12/4a/2d/28/6f74dbd5a7546d6cbd4b78bf53c6542a_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:49936",
+                "image_url": "https://cdn.thingiverse.com/renders/4a/42/44/c9/e7/2013-10-08_13.44.10_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:1049502",
+                "image_url": "https://cdn.thingiverse.com/renders/52/64/db/c0/0d/eating_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:1692456",
+                "image_url": "https://cdn.thingiverse.com/renders/3c/30/d2/4c/6e/071003a9d1015b0972734afc7f7c5ca3_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:3765128",
+                "image_url": "https://cdn.thingiverse.com/assets/e7/0a/f8/19/3c/IMG_4247.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:4314723",
+                "image_url": "https://cdn.thingiverse.com/assets/03/b3/59/03/86/card_preview_2020-04-26_17.08.23.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:1079916",
+                "image_url": "https://cdn.thingiverse.com/renders/c6/52/ac/78/c1/IMG_6965_preview_card.JPG",
+                "title": ""
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:16174",
+                "image_url": "https://cdn.thingiverse.com/renders/7d/b4/41/d9/c4/IMG_20120118_103110_display_large_preview_card.jpg",
+                "title": ""
+            }
+        ],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "scissors": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:2969607",
+                "image_url": "https://cdn.thingiverse.com/renders/a5/be/3d/3b/1c/7b3e2fb4a3936ec769df1da1691aee8d_preview_card.jpg",
+                "title": ""
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "shoes": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:1724591",
+                "image_url": "https://cdn.thingiverse.com/renders/5e/71/c0/ce/dc/1ab3a59ce625972d732ad4c78ccb5495_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:3322072",
+                "image_url": "https://cdn.thingiverse.com/renders/f9/7c/14/15/d2/85d3e76f3a70603646bcfb5b0b9de7ec_preview_card.jpg",
+                "title": ""
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "clothes": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:3021066",
+                "image_url": "https://cdn.thingiverse.com/renders/a6/8d/35/2d/3a/6adb6909946e636b2206745c67fc24b4_preview_card.jpg",
+                "title": ""
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "buttons": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:3021066",
+                "image_url": "https://cdn.thingiverse.com/renders/a6/8d/35/2d/3a/6adb6909946e636b2206745c67fc24b4_preview_card.jpg",
+                "title": ""
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "socks": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:1094092",
+                "image_url": "https://cdn.thingiverse.com/renders/b8/b9/b2/22/50/Screenshot_2015-10-20_23.03.33_preview_card.jpg",
+                "title": ""
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "nail_clipper": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:2810056",
+                "image_url": "https://cdn.thingiverse.com/renders/2a/db/a1/c9/d4/0a727ac4d991c8f444c042843324fcd8_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:38739",
+                "image_url": "https://cdn.thingiverse.com/renders/39/e5/76/ca/77/nail_clipper_03_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:33815",
+                "image_url": "https://cdn.thingiverse.com/renders/2b/b3/a6/c4/61/IMG_3900_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:3236371",
+                "image_url": "https://cdn.thingiverse.com/renders/5e/49/d0/81/40/c61f1852f37b1241d30ed1fed5df0165_preview_card.JPG",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:4211020",
+                "image_url": "https://cdn.thingiverse.com/assets/e4/16/6a/89/ae/card_preview_complete.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:5404760",
+                "image_url": "https://cdn.thingiverse.com/assets/22/6c/71/c5/d1/card_preview_NailCutterV2_02.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:2918330",
+                "image_url": "https://cdn.thingiverse.com/renders/d4/a7/a7/ec/f1/eb5f2e06402a0fe8f0849335af52e20a_preview_card.JPG",
+                "title": ""
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "book": {
+        "actuation-operation": [],
+        "actuation-reach": [],
+        "constraint": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:2105202",
+                "image_url": "https://cdn.thingiverse.com/renders/b5/e8/5e/f4/f4/ca5c0f7dc6065bcd26df3c64e9a6a194_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:2752344",
+                "image_url": "https://cdn.thingiverse.com/renders/80/52/d5/a5/d2/7f1956e71e7bbcc3d45373ebc0f1832f_preview_card.jpg",
+                "title": ""
+            }
+        ],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "document": {
+        "actuation-operation": [],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:3192347",
+                "image_url": "https://cdn.thingiverse.com/renders/fb/19/48/2d/41/a7901339125d3c942fa8403f8dc72285_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:3260322",
+                "image_url": "https://cdn.thingiverse.com/renders/b0/6c/ac/e7/f4/6d4af429f905476b0859714374521f01_preview_card.jpg",
+                "title": ""
+            }
+        ]
+    },
+    "toothpaste": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:867811",
+                "image_url": "https://cdn.thingiverse.com/renders/36/e0/e8/e0/7d/Toothpaste_Squeezer_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:49263",
+                "image_url": "https://cdn.thingiverse.com/renders/31/a7/ca/91/75/photo_2_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:1261318",
+                "image_url": "https://cdn.thingiverse.com/renders/8c/53/8e/8e/a0/72a2c10db146457a7e931d0cc6a3ea99_preview_card.JPG",
+                "title": ""
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "toothbrush": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:3413829",
+                "image_url": "https://cdn.thingiverse.com/renders/9d/fd/c3/8b/7a/f953a6ce21bfeca485d0a75e1ca56b6e_preview_card.JPG",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:1936150",
+                "image_url": "https://cdn.thingiverse.com/renders/24/11/2c/1a/ab/140389a628037c8311b6556f47c55056_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:3413829",
+                "image_url": "https://cdn.thingiverse.com/renders/9d/fd/c3/8b/7a/f953a6ce21bfeca485d0a75e1ca56b6e_preview_card.JPG",
+                "title": ""
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "toothbrush__electronic": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:3882190",
+                "image_url": "https://cdn.thingiverse.com/assets/b3/dd/5b/24/82/card_preview_20190822_071600.jpg",
+                "title": ""
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "clock": {
+        "actuation-operation": [],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:2381829",
+                "image_url": "https://cdn.thingiverse.com/renders/f7/65/36/f6/f5/e2ee90f1815fb84ef7436b9a3b826fd6_preview_card.JPG",
+                "title": ""
+            }
+        ],
+        "indication-tactile": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:2381829",
+                "image_url": "https://cdn.thingiverse.com/renders/f7/65/36/f6/f5/e2ee90f1815fb84ef7436b9a3b826fd6_preview_card.JPG",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:4665793",
+                "image_url": "https://cdn.thingiverse.com/assets/e5/a1/ca/42/e2/card_preview_touch_clock2.touch.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:4648789",
+                "image_url": "https://cdn.thingiverse.com/assets/cc/1b/c2/40/e8/card_preview_tehe.jpg",
+                "title": ""
+            }
+        ]
+    },
+    "key": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:3805863",
+                "image_url": "https://cdn.thingiverse.com/renders/52/35/39/7e/ae/ebf46dcc2d68b34c69cbb8fe63b0b314_preview_card.JPG",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:1852950",
+                "image_url": "https://cdn.thingiverse.com/renders/11/e3/d6/0e/af/7499a32917cd2f6b8e4d359a1cb0ecd3_preview_card.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:4903192",
+                "image_url": "https://cdn.thingiverse.com/assets/af/bf/cb/1e/6c/card_preview_OvalHandle2.jpg",
+                "title": ""
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "corner": {
+        "actuation-operation": [],
+        "actuation-reach": [],
+        "constraint": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:2982612",
+                "image_url": "https://cdn.thingiverse.com/renders/e3/cf/e5/f8/22/9a79ae4353091b5e7fd5090856cc6933_preview_card.jpg",
+                "title": ""
+            }
+        ],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "faucet": {
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:3628384",
+                "image_url": "https://cdn.thingiverse.com/renders/54/bd/80/35/fa/ed9d6ce4201682083a42047bbd05884c_preview_featured.jpg",
+                "title": ""
+            },
+            {
+                "design_url": "https://cults3d.com/en/3d-model/home/faucet-handle-10mm",
+                "image_url": "https://files.cults3d.com/uploaders/23426321/illustration-file/4fda7413-9c85-443a-af84-817f3c4d54ff/IMG-1926aNb.jpg",
+                "title": "faucet handle extender"
+            }
+        ],
+        "actuation-reach": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:2271048",
+                "image_url": "https://cdn.thingiverse.com/renders/3a/73/fa/54/b4/64a4c6e60fecf7349e09ea0022ff4723_preview_featured.jpg",
+                "title": "toddler faucet extension"
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:1690202",
+                "image_url": "https://cdn.thingiverse.com/renders/db/24/01/0d/0b/ebf6065a7ce1d5ae3b5b17f785e8f885_preview_featured.jpg",
+                "title": "faucet slide"
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:3672929",
+                "image_url": "https://cdn.thingiverse.com/renders/71/80/32/fd/69/e4b66cb7d4af5ecb711ba0c836ab8211_preview_featured.jpg",
+                "title": "faucet extension (rotatable version)"
+            }
+        ],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "faucet__rotate_knob": {
+        "actuation-operation": [
+            {
+                "design_url": "https://cults3d.com/en/3d-model/home/levers-for-faucet-with-rounded-knobs-arpruss",
+                "image_url": "https://files.cults3d.com/uploaders/13690874/illustration-file/1f8fb6b3-d6f0-49d7-bd2a-41803320520d/image.png",
+                "title": "LEVERS FOR FAUCET WITH ROUNDED KNOBS"
+            },
+            {
+                "design_url": "https://www.myminifactory.com/object/3d-print-faucet-knob-anti-slip-grip-ring-25mm-95156",
+                "image_url": "https://cdn.myminifactory.com/assets/object-assets/5d0126aa7b4ea/images/720X720-20190605-164329.jpg",
+                "title": "anti-slip grip"
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "closet": {
+        "actuation-operation": [],
+        "actuation-reach": [],
+        "constraint": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:1670644",
+                "image_url": "https://cdn.thingiverse.com/renders/d9/e6/f4/c3/45/ea27c6740a058cd0b0a9f52fb56c7a69_preview_featured.jpg",
+                "title": "bi-fold closet lock"
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:14211",
+                "image_url": "https://cdn.thingiverse.com/renders/96/a7/95/20/24/KittyLatch_display_large_preview_featured.jpg",
+                "title": "closet latch"
+            }
+        ],
+        "indication-visual": [],
+        "indication-tactile": []
+    },
+    "hair_dryer":{
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:1846213",
+                "image_url": "https://cdn.thingiverse.com/renders/06/aa/d9/6e/49/aba9effdc83edb0deb42ea73b8e25ca3_preview_featured.JPG",
+                "title": "Hair Dryer Holster (Holder) with slot and wide set screws"
+            }
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
+    }
+}
