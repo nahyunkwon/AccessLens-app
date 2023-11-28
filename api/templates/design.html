@@ -19,28 +19,13 @@
 		<!-- Wrapper -->
 		
 			<div id="wrapper" class="divided">
-
+				<h2 style="padding-left:16px;">Click an object to view augmentations</h2>
+				
 				<section class="banner style1 orient-left content-align-left image-position-right onload-image-fade-in onload-content-fade-right">
-                    
-					<div class="content">
-                        <h2>Objects with possible barriers</h2>
-                        <div id="detection">
-                            <!-- <img class="detected-object" onclick="update_suggestion(this.name);" name="object1" src="static/assets/images/object/object.png">
-                            <img class="detected-object" onclick="update_suggestion(this.name);" name="object1" src="static/assets/images/object/object.png">
-                            <img class="detected-object" onclick="update_suggestion(this.name);" name="object1" src="static/assets/images/object/object.png">
-                            <img class="detected-object" onclick="update_suggestion(this.name);" name="object1" src="static/assets/images/object/object.png">
-                            <img class="detected-object" onclick="update_suggestion(this.name);" name="object1" src="static/assets/images/object/object.png"> -->
-                        </div>
-                        Click the object to view suggestions
-                    </div>
-                    
-					<div class="content">
-                        <!-- <h3>Objects with possible barriers</h3> -->
-                        
-                        <img id="myImg" src="static/assets/images/kitchen_3_gt.jpg" alt="Full image" style="width:100%"/>
-						
-						Click to enlarge the photo
-					</div>
+					
+					<!-- <div class="content"> -->
+						<div id="object-icons" style="display: inline-block; overflow-x:auto; white-space: nowrap"></div>
+					<!-- </div> -->
                 
 				</section>
                 
@@ -56,9 +41,8 @@
 			
 			<!-- Load local data -->
 			<script>
-				
 				var dictionary = JSON.parse('{{ dictionary|tojson }}');
-			
+				var objects = JSON.parse('{{ objects|tojson }}');
 			</script>
 
 			<!-- The Modal -->
@@ -83,8 +67,9 @@
 			<script src="static/assets/js/breakpoints.min.js"></script>
 			<script src="static/assets/js/util.js"></script>
 			<script src="static/assets/js/main.js"></script>
-			<script src="static/assets/js/load_main.js"></script>
-			<script src="static/assets/js/modal.js"></script>
+			<script src="static/assets/js/load_design.js"></script>
+			<!-- <script src="static/assets/js/modal.js"></script> -->
+			<!-- <script src="static/assets/js/header.js"></script> -->
 			<script src="static/assets/js/suggestion.js"></script>
 			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 

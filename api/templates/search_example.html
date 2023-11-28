@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<!--
+	Story by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - codingnepalweb.com -->
+<html lang="en">
+<head>
+	<title>AccessLens</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="static/assets/css/main.css" />
+	<link rel="stylesheet" href="static/assets/css/custom.css" />
+	<noscript><link rel="stylesheet" href="static/static/assets/css/noscript.css" /></noscript>
+    
+    <!--===== Boxicons CSS =====-->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <title>Image Gallery with Search Box</title>
+</head>
+<body>
+    <div class="container">
+        <div class="search-box">
+            <i class="bx bx-search"></i>
+            <input type="text" placeholder="Search a design">
+        </div>
+        <div class="images">
+            <div class="image-box" data-name="spiderman">
+                <!-- <img src="./static/assets/images/kitchen_3_gt.jpg" alt=""> -->
+                <h6>spiderman</h6>
+            </div>
+            <div class="image-box" data-name="joker">
+                <!--<img src="images/joker.jpg" alt="">-->
+                <h6>joker</h6>
+            </div>
+            <div class="image-box" data-name="ironman">
+                <!--<img src="images/ironman.jpg" alt="">-->
+                <h6>ironman</h6>
+            </div>
+            <div class="image-box" data-name="passenger">
+                <!--<img src="images/passenger.jpg" alt="">-->
+                <h6>passenger</h6>
+            </div>
+            <div class="image-box" data-name="space">
+                <!--<img src="images/space.jpg" alt="">-->
+                <h6>the space</h6>
+            </div>
+            <div class="image-box" data-name="spiderman">
+                <!--<img src="images/spiderman2.jpg" alt="">-->
+                <h6>spiderman 2</h6>
+            </div>
+            <div class="image-box" data-name="universe">
+                <!--<img src="images/universe.jpg" alt="">-->
+                <h6>the universe</h6>
+            </div>
+            <div class="image-box" data-name="spiderman">
+                <!--<img src="images/spiderman3.jpg" alt="">-->
+                <h6>spiderman 3</h6>
+            </div>
+            <div class="image-box" data-name="holiday">
+                <!--<img src="images/holiday.jpg" alt="">-->
+                <h6>holiday</h6>
+            </div>
+            <div class="image-box" data-name="ironman">
+                <!--<img src="images/ironman2.jpg" alt="">-->
+                <h6>ironman 2</h6>
+            </div>
+        </div>
+    </div>
+    <!-- <script src="script.js"></script> -->
+	<script>
+		const search = document.querySelector(".search-box input"),
+			images = document.querySelectorAll(".image-box");
+		search.addEventListener("keyup", e =>{
+			if(e.key == "Enter"){
+				let searcValue = search.value,
+					value = searcValue.toLowerCase();
+					images.forEach(image =>{
+						if(value === image.dataset.name){ //matching value with getting attribute of images
+							return image.style.display = "block";
+						}
+						image.style.display = "none";
+				});
+			}
+		});
+		search.addEventListener("keyup", () =>{
+			if(search.value != "") return;
+			images.forEach(image =>{
+				image.style.display = "block";
+			})
+		})
+	</script>
+</body>
+</html>

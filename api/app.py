@@ -103,7 +103,7 @@ def design():
         dictionary = json.load(f)
         f.close()
     
-    return render_template('design.html', dictionary=dictionary)
+    return render_template('design.html', dictionary=dictionary, objects=list(dictionary.keys()))
 
 @app.route('/upload')
 def upload():

@@ -11,6 +11,10 @@ console.log(image);
 /* Load designs */
 function load_design(design_element){
 
+    var design_div = document.createElement('div');
+    design_div.className = "design-element";
+    design_div.style = "display: inline-block;"
+
     var a = document.createElement('a');
     a.href = design_element['design_url'];
     
@@ -22,7 +26,14 @@ function load_design(design_element){
     img.onclick = document.getElementById('suggestion').scrollIntoView();
     a.appendChild(img);
 
-    return a
+    title = document.createElement('p');
+    title.style = 'text-align: center; font-size: 15px; padding: -10px; width:100%; overflow:hidden;white-space:nowrap;text-overflow:ellipsis;';
+    title.innerHTML = design_element['title'];
+
+    design_div.appendChild(a);
+    design_div.appendChild(title);
+
+    return design_div;
 
 }
 
