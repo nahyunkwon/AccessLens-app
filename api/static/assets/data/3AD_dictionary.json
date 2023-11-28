@@ -4,7 +4,7 @@
             {
                 "design_url": "https://www.thingiverse.com/thing:4225872",
                 "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/assets/a1/c5/8d/b7/ee/large_display_IMG_5719.JPEG",
-                "title": "",
+                "title": "Hands-free door handle (Coronavirus prevention)",
                 "summary": "<div><p>A crucial step in the prevention of the coronavirus spread is to stay away from surfaces that are usually touched by everybody\u2019s hands. Thus, we designed a hands-free door handle to be able to operate doors with your arm instead your hand.</p>\n<p>Print the two parts and use four M4 screws to mount the adapter onto your door handle.</p>\n<p>Wash your hands and stay healthy!</p></div>\n",
                 "note": ""
             },
@@ -18,7 +18,7 @@
             {
                 "design_url": "https://www.thingiverse.com/thing:4253046",
                 "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/assets/15/07/05/f0/38/large_display_IMG_20200328_041858.jpg",
-                "title": "",
+                "title": "Hands-free door handle opener",
                 "summary": "<div><p>Hands-free door handle attachment based on CIMUPC's <a rel=\"ugc nofollow\" href=\"/thing:4236381\"><em>Arm Door Opener - COVID-19</em></a>.</p>\n<p>I wanted to make some size changes for our door handles so I recreated the design in freecad 0.18 to make modification easier.</p>\n<p>The STL provided is for the exterior side of a right hand opening door. Print out a mirrored version for the interior side.</p></div>\n",
                 "note": ""
             },
@@ -652,8 +652,8 @@
             {
                 "design_url": "https://pinshape.com/items/25355-3d-printed-drawer-opening-assitive-device",
                 "image_url": "https://assets.pinshape.com/uploads/image/file/97323/container_drawer-opening-assitive-device-3d-printing-97323.jpg",
-                "title": "",
-                "summary": "",
+                "title": "Drawer Opening Assitive Device",
+                "summary": "A design inspired because i noticed that the drawers in the kitchen in my house could onl be opened by a small indentation at the bottom of a flat rectangular panel.  I realized this would be very difficult for someone  with limited use of their hands to open (its even tricky for me sometimes).  I designed this to be hooked over the top of the drawer to provide a method to open the drawer with your wrist, arm, or fist.  It was also designed so that bags or dishrags could be hung on the handle",
                 "note": "title error.image error.summary error."
             },
             {
@@ -1063,7 +1063,7 @@
                 "design_url": "https://www.thingiverse.com/thing:5386671",
                 "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/assets/fd/10/57/f9/11/large_display_P%C3%A2t%C3%A9.JPG",
                 "title": "Suitable travel can opener / Ouvre boite adapt\u00e9 de voyage",
-                "summary": "",
+                "summary": "Soda/beer can opener and lid. Designed to be printed without support. Print time ~ 15-20 minutes.",
                 "note": "summary error."
             },
             {
@@ -1284,7 +1284,7 @@
                 "image_url": "https://cdn.thingiverse.com/renders/3a/db/27/ef/05/5e674b5a2103b72c928d9f2191c65f8b_preview_card.JPG",
                 "title": "",
                 "summary": "",
-                "note": "title error.image error.summary error."
+                "note": "404"
             },
             {
                 "design_url": "https://www.thingiverse.com/thing:1904518",
@@ -1298,7 +1298,7 @@
                 "image_url": "https://cdn.thingiverse.com/renders/66/a7/36/f5/56/switchplate2_preview_card.jpg",
                 "title": "",
                 "summary": "",
-                "note": "title error.image error.summary error."
+                "note": "404"
             },
             {
                 "design_url": "https://www.thingiverse.com/thing:5143727",
@@ -1896,10 +1896,10 @@
             },
             {
                 "design_url": "https://www.thingiverse.com/thing:2801185",
-                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/renders/c8/fc/d5/e1/cc/0c856870efe6d3a9bbed3b1c70f6dff8_display_large.jpg",
-                "title": "Drawing Device",
-                "summary": "",
-                "note": "summary error."
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95/https://cdn.thingiverse.com/renders/10/ce/07/8c/a7/5c9f99cd02209ef0e938bf2eedbd4cdc_display_large.jpg",
+                "title": "Clicking Measuring Wheel (Inch)",
+                "summary": "The clicking measuring wheel is for users with low or no vision to roughly measure a distance across a surface using auditory clicks. It comes in a variety of swappable wheels of 0.25”, 0.5”, 1”, 2”, and 4” increments. It also has a pen holder that doubles as a shaft to hold all the parts together so users can draw a specific length.",
+                "note": ""
             },
             {
                 "design_url": "https://www.thingiverse.com/thing:2782274",
