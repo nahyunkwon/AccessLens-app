@@ -26,6 +26,7 @@ function load_design(design_element){
 
 }
 
+/* Update suggestion upon clicking on object */
 function update_suggestion(object){
     
     suggestion_title = document.getElementById('suggestion-title');
@@ -75,41 +76,31 @@ function update_suggestion(object){
                 suggestion.appendChild(key_div);
             }
         }
-
         
-
     }
-
-
-    // // suggestion.innerHTML = "<h4>" + object + "</h4>";
-
-    // // open ul element
-    // // suggestion.innerHTML = ""
-    // suggestion.innerHTML = suggestion.innerHTML + "<ul>\n";
-
-
-    // // add list component
-    // design_title = "title1"
-    // design_img = "static/assets/images/design/design.jpg"
-    // design_full_link = "https://www.thingiverse.com/thing:2271048"
-    // suggestion.innerHTML = suggestion.innerHTML + "<li>" + design_title + "<br><img class='design' src=" + design_img + "></li>\n";
-
-    // // close ul element
-    // suggestion.innerHTML = suggestion.innerHTML + "</ul>";
-
 
 }
 
 
 /* Load object thumbnail (either representative or random instance if multiple occurence) */
 function load_image(object_name){
+    var img_div = document.createElement('div');
+    img_div.className = "detected-object"
+    img_div.style = "display: inline-block;height:170px";
     var img = document.createElement("img");
     img.src = 'static/assets/images/object/' + image + "/" + object_name + '.png';
     img.name = object_name;
     img.classList.add('detected-object');
     img.setAttribute("onclick", "update_suggestion(this.name);");
+    img.setAttribute("alt", object_name)
 
-    return img
+    title = document.createElement('p');
+    title.style = 'text-align: center; font-size: 15px; padding: -10px;';
+    title.innerHTML = object_name;
+
+    img_div.appendChild(img);
+    img_div.appendChild(title);
+    return img_div
 }
 
 var detection = document.getElementById("detection");
