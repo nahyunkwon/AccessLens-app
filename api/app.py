@@ -3,6 +3,8 @@ from werkzeug.utils import secure_filename
 import json
 import os
 
+import grounding_dino_inference
+
 app = Flask(__name__)
 
 basedir = os.path.abspath(os.path.dirname(__file__))
@@ -12,37 +14,12 @@ dictionary_file = os.path.join(basedir, 'static', 'assets', 'data', '3AD_diction
 upload_folder = os.path.join(basedir, 'static', 'assets', 'images', 'input')
 app.config['UPLOAD'] = upload_folder
 
+detected_object_folder = os.path.join(basedir, 'static', 'assets', 'images', 'object')
+app.config['DETECTED_OBJECT'] = detected_object_folder # image name
+
 @app.route('/')
 def home():
     return render_template('index.html')
-
-
-# @app.route('/upload', methods=['POST'])
-# def upload_image():
-#     if request.method == 'POST':
-#         file = request.files['img']
-#         filename = secure_filename(file.filename)
-#         file.save(os.path.join(app.config['UPLOAD'], filename))
-#         name = os.path.join(app.config['UPLOAD'], filename)
-#         print(name)
-
-#         ## add inference
-
-#         with open(dictionary_file, 'r') as f:
-#             dictionary = json.load(f)
-#             f.close()
-
-#         # with open(design_file, 'r') as f:
-#         #     designs = json.load(f)
-#         #     f.close()
-        
-#         objects = []
-
-#         # objects = os.listdir(os.path.join(basedir, 'static/assets/images/object/'+name+'/'))
-#         # objects = [x.split(".")[0] for x in objec
-#         # ts]
-#         return redirect(url_for('main', image=filename))
-        # return render_template('main.html', name=name, dictionary=dictionary, objects=objects)
 
 
 @app.route('/main', methods=['GET', 'POST'])
@@ -61,7 +38,7 @@ def main():
     if request.method == 'POST': 
         file = request.files['img']
         filename = secure_filename(file.filename)
-        file.save(os.path.join(app.config['UPLOAD'], filename))
+        file.save(os.path.join(app.config['UPLOAD'], filename)) # save into images/input
         # name = os.path.join(app.config['UPLOAD'], filename)
         image = filename
 

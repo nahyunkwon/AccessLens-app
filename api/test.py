@@ -9,8 +9,12 @@ with open(dictionary, 'r') as f:
 keys = list(data.keys())
 
 meta = list(data[keys[0]].keys())
-
-count = 0
+urls = []
 
 for k in keys:
-    print(k)
+    for m in meta:
+        for d in data[k][m]:
+            if d['design_url'] not in urls:
+                urls.append(d['design_url'])
+                
+print(len(urls))

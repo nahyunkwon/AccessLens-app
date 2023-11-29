@@ -11,3 +11,8 @@ venv/
 ENV/ 
 env.bak/ 
 venv.bak/ 
+
+# large files
+detectron2/model_0002799.pth
+detectron2/model_final_b275ba.pkl
+groundingdino/groundingdino_swint_ogc.pth

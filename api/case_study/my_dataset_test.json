@@ -1,0 +1,100 @@
+{
+    "images": [
+        {
+            "id": 1,
+            "height": 3024,
+            "width": 4032,
+            "file_name": "./case_study/Andrew_1.jpeg"
+        },
+        {
+            "id": 2,
+            "height": 4032,
+            "width": 3024,
+            "file_name": "./case_study/Emily_2.png"
+        },
+        {
+            "id": 3,
+            "height": 3024,
+            "width": 4032,
+            "file_name": "./case_study/Andrew_2.jpeg"
+        },
+        {
+            "id": 4,
+            "height": 4032,
+            "width": 3024,
+            "file_name": "./case_study/Ittiyanam_1.png"
+        },
+        {
+            "id": 5,
+            "height": 4032,
+            "width": 3024,
+            "file_name": "./case_study/Olivia_2.png"
+        },
+        {
+            "id": 6,
+            "height": 4032,
+            "width": 3024,
+            "file_name": "./case_study/Olivia_3.png"
+        },
+        {
+            "id": 7,
+            "height": 3024,
+            "width": 4032,
+            "file_name": "./case_study/Caroline_1.png"
+        },
+        {
+            "id": 8,
+            "height": 4032,
+            "width": 3024,
+            "file_name": "./case_study/Emily_4.png"
+        },
+        {
+            "id": 9,
+            "height": 4032,
+            "width": 3024,
+            "file_name": "./case_study/Emily_1.png"
+        },
+        {
+            "id": 10,
+            "height": 3024,
+            "width": 4032,
+            "file_name": "./case_study/Caroline_2.png"
+        },
+        {
+            "id": 11,
+            "height": 4032,
+            "width": 3024,
+            "file_name": "./case_study/Ittiyanam_2.png"
+        },
+        {
+            "id": 12,
+            "height": 4032,
+            "width": 3024,
+            "file_name": "./case_study/Emily_3.png"
+        },
+        {
+            "id": 13,
+            "height": 3024,
+            "width": 4032,
+            "file_name": "./case_study/Andrew_4.jpeg"
+        },
+        {
+            "id": 14,
+            "height": 3024,
+            "width": 4032,
+            "file_name": "./case_study/Andrew_3.jpeg"
+        },
+        {
+            "id": 15,
+            "height": 4032,
+            "width": 3024,
+            "file_name": "./case_study/Olivia_1.png"
+        },
+        {
+            "id": 16,
+            "height": 4032,
+            "width": 3024,
+            "file_name": "./case_study/Caroline_3.png"
+        }
+    ]
+}
