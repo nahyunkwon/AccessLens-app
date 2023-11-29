@@ -2,8 +2,9 @@ from flask import Flask, render_template, request, redirect, url_for
 from werkzeug.utils import secure_filename
 import json
 import os
+import shutil
 
-import grounding_dino_inference
+import grounding_dino_inference as gd
 
 app = Flask(__name__)
 
@@ -33,28 +34,56 @@ def main():
     #     return redirect(url_for('index'))
 
     # show the form, it wasn't submitted
+    
+    with open(dictionary_file, 'r') as f:
+        dictionary = json.load(f)
+        f.close()
 
     # user uploaded the photo
     if request.method == 'POST': 
         file = request.files['img']
         filename = secure_filename(file.filename)
         file.save(os.path.join(app.config['UPLOAD'], filename)) # save into images/input
-        # name = os.path.join(app.config['UPLOAD'], filename)
+        
+        # detected object cropped images will go to here
+        detected_object_path = os.path.join(app.config['DETECTED_OBJECT'], filename)
+        
+        try:
+            os.makedirs(detected_object_path)
+        except:
+            shutil.rmtree(detected_object_path)
+            os.makedirs(detected_object_path)
+            
+        # 1. GroundingDINO for common classes
+        classes = list(dictionary.keys())
+        
+        common_classes = []
+        
+        for c in classes:
+            common_c = c.split("__")[0].strip()
+            common_c = common_c.replace("_", " ")
+            if common_c not in common_classes:
+                common_classes.append(common_c)
+        
+        text_prompt = ". ".join(common_classes)
+        
+        print(text_prompt)
+            
+        objects = gd.run_grounding_dino(text_prompt=text_prompt, image_name=filename)
+        
         image = filename
 
-        # add inference here
-        objects = []
+        # 2. Detectron2 for inaccessibility classes
+        
 
     # pre-defined demo
     else:
         image = request.args['image']
-
         objects = []
 
         objects = os.listdir(os.path.join(basedir, 'static/assets/images/object/'+image+'/'))
         objects = [x.split(".")[0] for x in objects]
 
- 
     with open(dictionary_file, 'r') as f:
         dictionary = json.load(f)
         f.close()

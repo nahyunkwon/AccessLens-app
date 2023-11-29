@@ -1989,92 +1989,7 @@
         "indication-tactile": []
     },
     "knife": {
-        "actuation-operation": [
-            {
-                "design_url": "https://www.thingiverse.com/thing:686084",
-                "image_url": "https://cdn.thingiverse.com/renders/35/67/57/71/de/manche_grossi02_preview_card.jpg",
-                "title": "Universal hand grip for cutlery",
-                "note": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:3903972",
-                "image_url": "https://cdn.thingiverse.com/assets/bd/f4/00/83/fb/card_preview_IMG_2596.JPG",
-                "title": "Palmar cutlery clamp/Pinza palmar para cubiertos by ceapat - Thingiverse",
-                "note": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:3555524",
-                "image_url": "https://cdn.thingiverse.com/renders/3d/97/5e/9c/5b/574e4bc62d667343f400183c9ca55e99_preview_card.jpg",
-                "title": "Universal Spoon Holder by SONOKO - Thingiverse",
-                "note": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:1971795",
-                "image_url": "https://cdn.thingiverse.com/renders/7d/e1/a0/77/61/9296576938238e5b3099ca4f06bb0d6e_preview_card.JPG",
-                "title": "Enlarged handle with hilt / Manche grossi avec garde by Pole_ergo - Thingiverse",
-                "note": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:3357957",
-                "image_url": "https://cdn.thingiverse.com/renders/9e/5b/2d/34/8c/d591e7ce0bd1edbffcf3fd2ad327d314_preview_card.jpg",
-                "title": "Assistive Spoon by kanbara - Thingiverse",
-                "note": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:2960070",
-                "image_url": "https://cdn.thingiverse.com/renders/ee/e6/35/ae/59/ad8970037f66fd60aed103344cca945d_preview_card.jpg",
-                "title": "Spoon holder by SONOKO - Thingiverse",
-                "note": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:4574423",
-                "image_url": "https://cdn.thingiverse.com/assets/28/8a/c9/31/03/card_preview_Utensil_holder_1.jpg",
-                "title": "Utensil Holder by makersmakingchange - Thingiverse",
-                "note": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:1816581",
-                "image_url": "https://cdn.thingiverse.com/renders/cd/12/4a/2d/28/6f74dbd5a7546d6cbd4b78bf53c6542a_preview_card.jpg",
-                "title": "Andrew Fork by MacGyvrBot - Thingiverse",
-                "note": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:49936",
-                "image_url": "https://cdn.thingiverse.com/renders/4a/42/44/c9/e7/2013-10-08_13.44.10_preview_card.jpg",
-                "title": "Bowers Assistive Fork by ThePlanetMike - Thingiverse",
-                "note": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:1049502",
-                "image_url": "https://cdn.thingiverse.com/renders/52/64/db/c0/0d/eating_preview_card.jpg",
-                "title": "EasyFork - Assistive Tech Challenge by NeatoBrian - Thingiverse",
-                "note": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:1692456",
-                "image_url": "https://cdn.thingiverse.com/renders/3c/30/d2/4c/6e/071003a9d1015b0972734afc7f7c5ca3_preview_card.jpg",
-                "title": "Right Angel Utensil Holder by Flavoredcorn - Thingiverse",
-                "note": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:3765128",
-                "image_url": "https://cdn.thingiverse.com/assets/e7/0a/f8/19/3c/IMG_4247.jpg",
-                "title": "Fork Holder by centrorecupera - Thingiverse",
-                "note": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:4314723",
-                "image_url": "https://cdn.thingiverse.com/assets/03/b3/59/03/86/card_preview_2020-04-26_17.08.23.jpg",
-                "title": "Digitally molded T handle by hamade - Thingiverse",
-                "note": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:1079916",
-                "image_url": "https://cdn.thingiverse.com/renders/c6/52/ac/78/c1/IMG_6965_preview_card.JPG",
-                "title": "Adaptive Silverware Handle by Eagleknot - Thingiverse",
-                "note": ""
-            }
-        ],
+        "actuation-operation": [],
         "actuation-reach": [],
         "constraint": [
             {
@@ -2121,26 +2036,12 @@
         "indication-visual": [],
         "indication-tactile": []
     },
-    "clothes": {
+    "shirts": {
         "actuation-operation": [
             {
                 "design_url": "https://www.thingiverse.com/thing:3021066",
                 "image_url": "https://cdn.thingiverse.com/renders/a6/8d/35/2d/3a/6adb6909946e636b2206745c67fc24b4_preview_card.jpg",
                 "title": "Enfile-bouton / Button hook by RehabLab-Kerpape - Thingiverse",
-                "note": ""
-            }
-        ],
-        "actuation-reach": [],
-        "constraint": [],
-        "indication-visual": [],
-        "indication-tactile": []
-    },
-    "buttons": {
-        "actuation-operation": [
-            {
-                "design_url": "https://www.thingiverse.com/thing:3021066",
-                "image_url": "https://cdn.thingiverse.com/renders/a6/8d/35/2d/3a/6adb6909946e636b2206745c67fc24b4_preview_card.jpg",
-                "title": "Enfile-bouton / Button hook",
                 "note": ""
             }
         ],
@@ -2311,12 +2212,6 @@
     },
     "toothbrush": {
         "actuation-operation": [
-            {
-                "design_url": "https://www.thingiverse.com/thing:3413829",
-                "image_url": "https://cdn.thingiverse.com/renders/9d/fd/c3/8b/7a/f953a6ce21bfeca485d0a75e1ca56b6e_preview_card.JPG",
-                "title": "Toothbrush Toothpaste Aid by jsharaya - Thingiverse",
-                "note": ""
-            },
             {
                 "design_url": "https://www.thingiverse.com/thing:1936150",
                 "image_url": "https://cdn.thingiverse.com/renders/24/11/2c/1a/ab/140389a628037c8311b6556f47c55056_preview_card.jpg",
@@ -2635,7 +2530,7 @@
         "indication-visual": [],
         "indication-tactile": []
     },
-    "cable": {
+    "cord": {
         "actuation-operation": [
             {
                 "design_url": "https://www.thingiverse.com/thing:2481258",

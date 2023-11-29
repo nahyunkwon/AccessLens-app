@@ -9,6 +9,29 @@ import os
 from torchvision.ops import box_convert
 import supervision as sv
 
+from PIL import Image
+
+basedir = os.path.abspath(os.path.dirname(__file__))
+detected_object_folder = os.path.join(basedir, 'static', 'assets', 'images', 'object')
+
+def crop_detected_objects(image_name, xyxy, phrases):
+      
+    # Opens a image in RGB mode
+    IMAGE_DIR = './static/assets/images/input/'
+    im = Image.open(os.path.join(IMAGE_DIR, image_name))
+    
+    # Size of the image in pixels (size of original image)
+    # (This is not mandatory)
+    # width, height = im.size
+    
+    # Cropped image of above dimension
+    # (It will not change original image)
+    for i, phrase in enumerate(phrases):
+        cropped = im.crop((xyxy[i][0], xyxy[i][1], xyxy[i][2], xyxy[i][3]))
+        phrase = phrase.replace(" ", "_")
+        cropped_image_name = phrase + ".png"
+        cropped.save(os.path.join(detected_object_folder, image_name, cropped_image_name))
+    
 
 def run_grounding_dino(text_prompt, image_name='Olivia_2.png'):
     """ Run grounding dino
@@ -37,20 +60,25 @@ def run_grounding_dino(text_prompt, image_name='Olivia_2.png'):
         text_threshold=TEXT_TRESHOLD
     )
     
-    print(boxes)
-    print(logits)
-    print(phrases)
+    # print(boxes)
+    # print(logits)
+    # print(phrases)
     
     h, w, _ = image_source.shape
     boxes = boxes * torch.Tensor([w, h, w, h])
     xyxy = box_convert(boxes=boxes, in_fmt="cxcywh", out_fmt="xyxy").numpy()
-    detections = sv.Detections(xyxy=xyxy)
+    # detections = sv.Detections(xyxy=xyxy)
     
-    for ins in xyxy:
-        print(ins) # in xyxy format
+    # for ins in xyxy:
+    #     print(ins) # in xyxy format
+    #     print(ins[0])
+    
+    crop_detected_objects(image_name, xyxy, phrases)
 
     annotated_frame = annotate(image_source=image_source, boxes=boxes, logits=logits, phrases=phrases)
     cv2.imwrite(IMGNAME, annotated_frame)
+    
+    return phrases
     
 
 def main():
