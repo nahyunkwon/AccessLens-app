@@ -64,7 +64,7 @@ def run_grounding_dino(common_classes, image_name='Olivia_2.png'):
 
 
     annotated_frame = annotate(image_source=image_source, boxes=boxes, logits=logits, phrases=phrases)
-    cv2.imwrite(IMGNAME, annotated_frame)
+    cv2.imwrite(os.path.join('./inference_output', IMGNAME), annotated_frame)
     
     h, w, _ = image_source.shape
     boxes = boxes * torch.Tensor([w, h, w, h])

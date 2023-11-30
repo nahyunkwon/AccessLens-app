@@ -5,6 +5,7 @@ import os
 import shutil
 
 import grounding_dino_inference as gd
+import detectron_inference as dt
 
 app = Flask(__name__)
 
@@ -35,7 +36,7 @@ def get_common_classes():
     #     if keyword not in IC_root_objects and keyword not in common_classes:
     #         common_classes.append(keyword)
     
-    text_prompt = "door. cupboard. drawer. jar. bottle. bowl. chopsticks. zipper. smartphone. tablet. laptop. keyboard. toaster. pen. cutlery. knife. scissors. shoes. shirts. socks. nail clipper. book. document. toothpaste. toothbrush. clock. key. corner. closet. hair dryer. microwave. stove. toilet. bag. cord. sofa. chair. table. refrigerator. blinds"
+    text_prompt = "door. cupboard. drawer. jar. glass bottle. plastic bottle. spray. bowl. chopsticks. zipper. smartphone. tablet. laptop. keyboard. toaster. pen. cutlery. knife. scissors. shoes. shirts. socks. nail clipper. book. document. toothpaste. toothbrush. clock. key. corner. closet. hair dryer. microwave. stove. toilet. bag. cord. sofa. chair. table. refrigerator. blinds"
     
     common_classes = text_prompt.split(". ")
     return common_classes
@@ -60,6 +61,8 @@ def main():
     with open(dictionary_file, 'r') as f:
         dictionary = json.load(f)
         f.close()
+        
+    objects = []
 
     # user uploaded the photo
     if request.method == 'POST': 
@@ -77,26 +80,21 @@ def main():
             os.makedirs(detected_object_path)
             
         # 1. GroundingDINO for common classes
-        # classes = list(dictionary.keys())
-        
-        # common_classes = []
-        
-        # for c in classes:
-        #     common_c = c.split("__")[0].strip()
-        #     common_c = common_c.replace("_", " ")
-        #     if common_c not in common_classes:
-        #         common_classes.append(common_c)
-        
-        # text_prompt = ". ".join(common_classes)
+
         common_classes = get_common_classes()
         
         print(common_classes)
             
-        objects = gd.run_grounding_dino(common_classes=common_classes, image_name=filename)
+        gd_objects = gd.run_grounding_dino(common_classes=common_classes, image_name=filename)
         
         image = filename
+        objects += gd_objects
 
         # 2. Detectron2 for inaccessibility classes
+        
+        # dt_objects = dt.run_detectron_on_image(filename)
+        
+        # objects += dt_objects
         
 
     # pre-defined demo

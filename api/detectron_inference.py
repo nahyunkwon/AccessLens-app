@@ -82,7 +82,7 @@ def add_images_to_coco(image_dir, coco_filename):
         json.dump(data, coco_file, indent = 4)
         
 
-def test_image(image_dir):
+def run_detectron_on_image(image_dir):
 
     cfg = set_cfg()
     

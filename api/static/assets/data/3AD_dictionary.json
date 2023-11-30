@@ -716,7 +716,7 @@
         "indication-visual": [],
         "indication-tactile": []
     },
-    "bottle__spray": {
+    "spray": {
         "actuation-operation": [
             {
                 "design_url": "https://www.thingiverse.com/thing:2240803",
@@ -730,13 +730,13 @@
         "indication-visual": [],
         "indication-tactile": []
     },
-    "bottle__metal_cap": {
+    "glass_bottle": {
         "actuation-operation": [
             {
                 "design_url": "https://www.thingiverse.com/thing:269463",
                 "image_url": "https://cdn.thingiverse.com/renders/39/2c/d9/ae/5e/IMG_8993_preview_card.jpg",
                 "title": "Smart One Handed Bottle Opener",
-                "note": ""
+                "note": "botte__metal_cap"
             },
             {
                 "design_url": "https://www.thingiverse.com/thing:132632",
@@ -762,7 +762,7 @@
         "indication-visual": [],
         "indication-tactile": []
     },
-    "bottle__plastic": {
+    "plastic_bottle": {
         "actuation-operation": [
             {
                 "design_url": "https://www.thingiverse.com/thing:2801157",
