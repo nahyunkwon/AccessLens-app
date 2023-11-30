@@ -14,7 +14,7 @@ from PIL import Image
 basedir = os.path.abspath(os.path.dirname(__file__))
 detected_object_folder = os.path.join(basedir, 'static', 'assets', 'images', 'object')
 
-def crop_detected_objects(image_name, xyxy, phrases):
+def crop_detected_objects(image_name, xyxy, phrases, common_classes):
       
     # Opens a image in RGB mode
     IMAGE_DIR = './static/assets/images/input/'
@@ -27,13 +27,14 @@ def crop_detected_objects(image_name, xyxy, phrases):
     # Cropped image of above dimension
     # (It will not change original image)
     for i, phrase in enumerate(phrases):
-        cropped = im.crop((xyxy[i][0], xyxy[i][1], xyxy[i][2], xyxy[i][3]))
-        phrase = phrase.replace(" ", "_")
-        cropped_image_name = phrase + ".png"
-        cropped.save(os.path.join(detected_object_folder, image_name, cropped_image_name))
+        if phrase in common_classes:
+            cropped = im.crop((xyxy[i][0], xyxy[i][1], xyxy[i][2], xyxy[i][3]))
+            phrase = phrase.replace(" ", "_")
+            cropped_image_name = phrase + ".png"
+            cropped.save(os.path.join(detected_object_folder, image_name, cropped_image_name))
     
 
-def run_grounding_dino(text_prompt, image_name='Olivia_2.png'):
+def run_grounding_dino(common_classes, image_name='Olivia_2.png'):
     """ Run grounding dino
 
     Args:
@@ -43,12 +44,13 @@ def run_grounding_dino(text_prompt, image_name='Olivia_2.png'):
     model = load_model("../groundingdino/GroundingDINO_SwinT_OGC.py", "../groundingdino/groundingdino_swint_ogc.pth")
     # IMAGE_PATH = "/media/nahyun/HDD/3dpfix-gt/train/separation/"
     # IMGNAME = "542_o5m0sn.jpg"
+
     
     IMAGE_DIR = './static/assets/images/input/'
     IMGNAME = image_name
-    TEXT_PROMPT = text_prompt
-    BOX_TRESHOLD = 0.35
-    TEXT_TRESHOLD = 0.25
+    TEXT_PROMPT = ". ".join(common_classes)
+    BOX_TRESHOLD = 0.45
+    TEXT_TRESHOLD = 0.45
 
     image_source, image = load_image(os.path.join(IMAGE_DIR, IMGNAME))
 
@@ -59,26 +61,25 @@ def run_grounding_dino(text_prompt, image_name='Olivia_2.png'):
         box_threshold=BOX_TRESHOLD,
         text_threshold=TEXT_TRESHOLD
     )
-    
-    # print(boxes)
-    # print(logits)
-    # print(phrases)
-    
-    h, w, _ = image_source.shape
-    boxes = boxes * torch.Tensor([w, h, w, h])
-    xyxy = box_convert(boxes=boxes, in_fmt="cxcywh", out_fmt="xyxy").numpy()
-    # detections = sv.Detections(xyxy=xyxy)
-    
-    # for ins in xyxy:
-    #     print(ins) # in xyxy format
-    #     print(ins[0])
-    
-    crop_detected_objects(image_name, xyxy, phrases)
+
 
     annotated_frame = annotate(image_source=image_source, boxes=boxes, logits=logits, phrases=phrases)
     cv2.imwrite(IMGNAME, annotated_frame)
     
-    return phrases
+    h, w, _ = image_source.shape
+    boxes = boxes * torch.Tensor([w, h, w, h])
+    xyxy = box_convert(boxes=boxes, in_fmt="cxcywh", out_fmt="xyxy").numpy()
+    
+    crop_detected_objects(image_name, xyxy, phrases, common_classes)
+    
+    keep_phrases = []
+    
+    for phrase in phrases:
+        phrase = phrase.replace(" ", "_")
+        if phrase in common_classes and phrase not in keep_phrases:
+            keep_phrases.append(phrase)
+
+    return keep_phrases
     
 
 def main():

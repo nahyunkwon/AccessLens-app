@@ -364,7 +364,7 @@
             }
         ]
     },
-    "cabinet": {
+    "cupboard": {
         "actuation-operation": [
             {
                 "design_url": "https://www.thingiverse.com/thing:1228617",
@@ -437,32 +437,6 @@
                 "title": "Magnetic Label holder with glass insert / Magnetisches Schild mit Glas Einsatz"
             }
         ],
-        "indication-tactile": []
-    },
-    "cupboard": {
-        "actuation-operation": [],
-        "actuation-reach": [],
-        "constraint": [
-            {
-                "design_url": "https://www.thingiverse.com/thing:28037",
-                "image_url": "https://cdn.thingiverse.com/renders/2a/3b/bd/5d/4e/mylock_preview_card.jpg",
-                "title": "Child safety lock for cabinet/cupboard",
-                "note": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:4151807",
-                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/assets/d9/8f/e6/73/af/large_display_20200208_220147.jpg",
-                "title": "cupboard Lock (baby Safety)",
-                "note": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:754560",
-                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/renders/75/0a/21/a7/9e/IMG_20150402_213127090_HDR_display_large.jpg",
-                "title": "Anti-slam Lock Arm - Child Safety",
-                "note": ""
-            }
-        ],
-        "indication-visual": [],
         "indication-tactile": []
     },
     "drawer": {
@@ -615,6 +589,24 @@
                 "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/assets/11/43/bb/47/39/large_display_20200513_092807.jpg",
                 "title": "Cabinet Latch/Lock",
                 "note": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:28037",
+                "image_url": "https://cdn.thingiverse.com/renders/2a/3b/bd/5d/4e/mylock_preview_card.jpg",
+                "title": "Child safety lock for cabinet/cupboard",
+                "note": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:4151807",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/assets/d9/8f/e6/73/af/large_display_20200208_220147.jpg",
+                "title": "cupboard Lock (baby Safety)",
+                "note": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:754560",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/renders/75/0a/21/a7/9e/IMG_20150402_213127090_HDR_display_large.jpg",
+                "title": "Anti-slam Lock Arm - Child Safety",
+                "note": ""
             }
         ],
         "indication-visual": [],
@@ -710,7 +702,7 @@
         "indication-visual": [],
         "indication-tactile": []
     },
-    "pack": {
+    "milk_pack": {
         "actuation-operation": [
             {
                 "design_url": "https://www.thingiverse.com/thing:3303124",
@@ -964,7 +956,7 @@
         "indication-visual": [],
         "indication-tactile": []
     },
-    "cup__no_handle": {
+    "cup": {
         "actuation-operation": [
             {
                 "design_url": "https://www.thingiverse.com/thing:310961",
@@ -1629,274 +1621,7 @@
         "indication-visual": [],
         "indication-tactile": []
     },
-    "brush": {
-        "actuation-operation": [
-            {
-                "design_url": "https://www.thingiverse.com/thing:1748254",
-                "image_url": "https://cdn.thingiverse.com/renders/46/a7/f5/86/bd/f3ccdd27d2000e3f9255a7e3e2c48800_preview_card.jpg",
-                "title": "Ring Writer/Painter etc... Clip Assistant Device"
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:2353621",
-                "image_url": "https://cdn.thingiverse.com/renders/eb/1c/51/3a/c5/abd4345c12f3da58524132b83ed5939f_preview_card.jpg",
-                "title": "T student project : pen holder helper"
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:663865",
-                "image_url": "https://cdn.thingiverse.com/renders/c9/8d/b5/94/cb/guidedoigt_preview_card.jpg",
-                "title": "Finger guide for pen"
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:1104573",
-                "image_url": "https://cdn.thingiverse.com/renders/03/c4/a3/82/37/DSC_2757_p_preview_card.jpg",
-                "title": "Hook"
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:2926643",
-                "image_url": "https://cdn.thingiverse.com/renders/c8/fc/d5/e1/cc/0c856870efe6d3a9bbed3b1c70f6dff8_preview_card.jpg",
-                "title": "Drawing Device"
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:2801185",
-                "image_url": "https://cdn.thingiverse.com/renders/10/ce/07/8c/a7/5c9f99cd02209ef0e938bf2eedbd4cdc_preview_card.jpg",
-                "title": "Clicking Measuring Wheel (Inch)"
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:2782274",
-                "image_url": "https://cdn.thingiverse.com/renders/b1/e3/de/9a/82/8d72b134cad78ef6dc5de9f39e0d122a_preview_card.jpeg",
-                "title": "PipClip assistive draw"
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:2257846",
-                "image_url": "https://cdn.thingiverse.com/assets/94/5b/60/4f/75/2017-03-24_15.24.21.jpg",
-                "title": "Pen to palm adapter"
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:1615967",
-                "image_url": "https://cdn.thingiverse.com/renders/4e/b4/5d/a5/1b/513d771d1cf134b6d5752ea062f710e6_preview_card.jpg",
-                "title": "AT Pen Holder"
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:2228287",
-                "image_url": "https://cdn.thingiverse.com/renders/bb/92/6a/fe/8e/bf8a0b25c78a05a911c7429fe276fc30_preview_card.jpg",
-                "title": "[K] Aide maintien crayon (Pen holder) by RehabLab-Kerpape - Thingiverse",
-                "note": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:2936984",
-                "image_url": "https://cdn.thingiverse.com/renders/53/28/39/de/3c/33f9a18ddb9c35d9f5cd331bb7bfff0b_preview_card.JPG",
-                "title": "Flexible Pen Holder by SONOKO - Thingiverse",
-                "note": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:3236846",
-                "image_url": "https://cdn.thingiverse.com/renders/38/01/70/3a/1b/af265eae395f2b000ee4f01f67eae333_preview_card.JPG",
-                "title": "3D Printed Pen/Marker Holder by ezra_reynolds - Thingiverse",
-                "note": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:4873185",
-                "image_url": "https://cdn.thingiverse.com/assets/e3/ab/0d/c7/74/card_preview_IMG_20210603_210358_compress54.jpg",
-                "title": "Pen holder adaptation by acsantosabino - Thingiverse",
-                "note": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:255326",
-                "image_url": "https://cdn.thingiverse.com/renders/c7/9a/e2/64/67/bubble_grip_detail_preview_card.jpg",
-                "title": "Bubble Pencil Grip by dadhoc - Thingiverse",
-                "note": ""
-            }
-        ],
-        "actuation-reach": [],
-        "constraint": [],
-        "indication-visual": [],
-        "indication-tactile": []
-    },
-    "pencil": {
-        "actuation-operation": [
-            {
-                "design_url": "https://www.thingiverse.com/thing:1748254",
-                "image_url": "https://cdn.thingiverse.com/renders/46/a7/f5/86/bd/f3ccdd27d2000e3f9255a7e3e2c48800_preview_card.jpg",
-                "title": "Ring Writer/Painter etc... Clip Assistant Device by Nelujones - Thingiverse",
-                "note": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:2353621",
-                "image_url": "https://cdn.thingiverse.com/renders/eb/1c/51/3a/c5/abd4345c12f3da58524132b83ed5939f_preview_card.jpg",
-                "title": "OT student project : pen holder helper / support de stylo guide doigts by Pole_ergo - Thingiverse",
-                "note": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:663865",
-                "image_url": "https://cdn.thingiverse.com/renders/c9/8d/b5/94/cb/guidedoigt_preview_card.jpg",
-                "title": "Finger guide for pen / Guide doigts crayon by Pole_ergo - Thingiverse",
-                "note": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:1104573",
-                "image_url": "https://cdn.thingiverse.com/renders/03/c4/a3/82/37/DSC_2757_p_preview_card.jpg",
-                "title": "Hook by Shira - Thingiverse",
-                "note": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:2926643",
-                "image_url": "https://cdn.thingiverse.com/renders/c8/fc/d5/e1/cc/0c856870efe6d3a9bbed3b1c70f6dff8_preview_card.jpg",
-                "title": "Drawing Device by Beatrice1975 - Thingiverse",
-                "note": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:2801185",
-                "image_url": "https://cdn.thingiverse.com/renders/10/ce/07/8c/a7/5c9f99cd02209ef0e938bf2eedbd4cdc_preview_card.jpg",
-                "title": "Clicking Measuring Wheel (Inch) by makersmakingchange - Thingiverse",
-                "note": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:2782274",
-                "image_url": "https://cdn.thingiverse.com/renders/b1/e3/de/9a/82/8d72b134cad78ef6dc5de9f39e0d122a_preview_card.jpeg",
-                "title": "PipClip assistive draw by vrandvr - Thingiverse",
-                "note": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:2257846",
-                "image_url": "https://cdn.thingiverse.com/assets/94/5b/60/4f/75/2017-03-24_15.24.21.jpg",
-                "title": "Pen to palm adapter by GabrielaB - Thingiverse",
-                "note": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:1615967",
-                "image_url": "https://cdn.thingiverse.com/renders/4e/b4/5d/a5/1b/513d771d1cf134b6d5752ea062f710e6_preview_card.jpg",
-                "title": "AT Pen Holder by scuba840 - Thingiverse",
-                "note": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:2228287",
-                "image_url": "https://cdn.thingiverse.com/renders/bb/92/6a/fe/8e/bf8a0b25c78a05a911c7429fe276fc30_preview_card.jpg",
-                "title": "[K] Aide maintien crayon (Pen holder) by RehabLab-Kerpape - Thingiverse",
-                "note": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:2936984",
-                "image_url": "https://cdn.thingiverse.com/renders/53/28/39/de/3c/33f9a18ddb9c35d9f5cd331bb7bfff0b_preview_card.JPG",
-                "title": "Flexible Pen Holder by SONOKO - Thingiverse",
-                "note": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:3236846",
-                "image_url": "https://cdn.thingiverse.com/renders/38/01/70/3a/1b/af265eae395f2b000ee4f01f67eae333_preview_card.JPG",
-                "title": "3D Printed Pen/Marker Holder by ezra_reynolds - Thingiverse",
-                "note": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:4873185",
-                "image_url": "https://cdn.thingiverse.com/assets/e3/ab/0d/c7/74/card_preview_IMG_20210603_210358_compress54.jpg",
-                "title": "Pen holder adaptation by acsantosabino - Thingiverse",
-                "note": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:255326",
-                "image_url": "https://cdn.thingiverse.com/renders/c7/9a/e2/64/67/bubble_grip_detail_preview_card.jpg",
-                "title": "Bubble Pencil Grip by dadhoc - Thingiverse",
-                "note": ""
-            }
-        ],
-        "actuation-reach": [],
-        "constraint": [],
-        "indication-visual": [],
-        "indication-tactile": []
-    },
-    "fork": {
-        "actuation-operation": [
-            {
-                "design_url": "https://www.thingiverse.com/thing:686084",
-                "image_url": "https://cdn.thingiverse.com/renders/35/67/57/71/de/manche_grossi02_preview_card.jpg",
-                "title": "Universal hand grip for cutlery / Manche \u00e0 couvert universel by Pole_ergo - Thingiverse",
-                "note": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:3903972",
-                "image_url": "https://cdn.thingiverse.com/assets/bd/f4/00/83/fb/card_preview_IMG_2596.JPG",
-                "title": "Palmar cutlery clamp/Pinza palmar para cubiertos by ceapat - Thingiverse",
-                "note": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:3555524",
-                "image_url": "https://cdn.thingiverse.com/renders/3d/97/5e/9c/5b/574e4bc62d667343f400183c9ca55e99_preview_card.jpg",
-                "title": "Universal Spoon Holder by SONOKO - Thingiverse",
-                "note": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:1971795",
-                "image_url": "https://cdn.thingiverse.com/renders/7d/e1/a0/77/61/9296576938238e5b3099ca4f06bb0d6e_preview_card.JPG",
-                "title": "Enlarged handle with hilt / Manche grossi avec garde by Pole_ergo - Thingiverse",
-                "note": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:3357957",
-                "image_url": "https://cdn.thingiverse.com/renders/9e/5b/2d/34/8c/d591e7ce0bd1edbffcf3fd2ad327d314_preview_card.jpg",
-                "title": "Assistive Spoon by kanbara - Thingiverse",
-                "note": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:2960070",
-                "image_url": "https://cdn.thingiverse.com/renders/ee/e6/35/ae/59/ad8970037f66fd60aed103344cca945d_preview_card.jpg",
-                "title": "Spoon holder by SONOKO - Thingiverse",
-                "note": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:4574423",
-                "image_url": "https://cdn.thingiverse.com/assets/28/8a/c9/31/03/card_preview_Utensil_holder_1.jpg",
-                "title": "Utensil Holder by makersmakingchange - Thingiverse",
-                "note": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:1816581",
-                "image_url": "https://cdn.thingiverse.com/renders/cd/12/4a/2d/28/6f74dbd5a7546d6cbd4b78bf53c6542a_preview_card.jpg",
-                "title": "Andrew Fork by MacGyvrBot - Thingiverse",
-                "note": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:49936",
-                "image_url": "https://cdn.thingiverse.com/renders/4a/42/44/c9/e7/2013-10-08_13.44.10_preview_card.jpg",
-                "title": "Bowers Assistive Fork by ThePlanetMike - Thingiverse",
-                "note": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:1049502",
-                "image_url": "https://cdn.thingiverse.com/renders/52/64/db/c0/0d/eating_preview_card.jpg",
-                "title": "EasyFork - Assistive Tech Challenge by NeatoBrian - Thingiverse",
-                "note": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:1692456",
-                "image_url": "https://cdn.thingiverse.com/renders/3c/30/d2/4c/6e/071003a9d1015b0972734afc7f7c5ca3_preview_card.jpg",
-                "title": "Right Angel Utensil Holder by Flavoredcorn - Thingiverse",
-                "note": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:3765128",
-                "image_url": "https://cdn.thingiverse.com/assets/e7/0a/f8/19/3c/IMG_4247.jpg",
-                "title": "Fork Holder by centrorecupera - Thingiverse",
-                "note": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:4314723",
-                "image_url": "https://cdn.thingiverse.com/assets/03/b3/59/03/86/card_preview_2020-04-26_17.08.23.jpg",
-                "title": "Digitally molded T handle by hamade - Thingiverse",
-                "note": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:1079916",
-                "image_url": "https://cdn.thingiverse.com/renders/c6/52/ac/78/c1/IMG_6965_preview_card.JPG",
-                "title": "Adaptive Silverware Handle by Eagleknot - Thingiverse",
-                "note": ""
-            }
-        ],
-        "actuation-reach": [],
-        "constraint": [],
-        "indication-visual": [],
-        "indication-tactile": []
-    },
-    "spoon": {
+    "cutlery": {
         "actuation-operation": [
             {
                 "design_url": "https://www.thingiverse.com/thing:686084",
@@ -2222,6 +1947,12 @@
                 "design_url": "https://www.thingiverse.com/thing:3413829",
                 "image_url": "https://cdn.thingiverse.com/renders/9d/fd/c3/8b/7a/f953a6ce21bfeca485d0a75e1ca56b6e_preview_card.JPG",
                 "title": "Toothbrush Toothpaste Aid by jsharaya - Thingiverse",
+                "note": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:3882190",
+                "image_url": "https://cdn.thingiverse.com/assets/b3/dd/5b/24/82/card_preview_20190822_071600.jpg",
+                "title": "Lever for Pressing Buttons by Enabl3D_Designs - Thingiverse",
                 "note": ""
             }
         ],
@@ -2688,21 +2419,9 @@
                 "note": ""
             },
             {
-                "design_url": "https://www.thingiverse.com/thing:3545593",
-                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/renders/7b/e5/a2/c1/17/1feac3c7048765b6fcd4a852e6686dd8_display_large.jpg",
-                "title": "Child-detering door handle locks by fastryan - Thingiverse",
-                "note": ""
-            },
-            {
                 "design_url": "https://www.thingiverse.com/thing:3214474",
                 "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/renders/00/db/f0/79/59/77238243b75245519a153ed4c4cc6f86_display_large.jpg",
                 "title": "Corner protector for 8mm thick glass table (Child protection) by motel - Thingiverse",
-                "note": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:754560",
-                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/renders/75/0a/21/a7/9e/IMG_20150402_213127090_HDR_display_large.jpg",
-                "title": "Anti-slam Lock Arm - Child Safety by euser_name - Thingiverse",
                 "note": ""
             }
         ],
@@ -2769,7 +2488,7 @@
         "indication-visual": [],
         "indication-tactile": []
     },
-    "blind": {
+    "blinds": {
         "actuation-operation": [],
         "actuation-reach": [],
         "constraint": [

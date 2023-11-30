@@ -18,6 +18,28 @@ app.config['UPLOAD'] = upload_folder
 detected_object_folder = os.path.join(basedir, 'static', 'assets', 'images', 'object')
 app.config['DETECTED_OBJECT'] = detected_object_folder # image name
 
+def get_common_classes():
+    # dictionary = "./static/assets/data/3AD_dictionary.json"
+    # with open(dictionary, 'r') as f:
+    #     data = json.load(f)
+
+    # keys = list(data.keys())
+    # IC_root_objects = ['handle', 'knob', 'electric outlet', 'faucet', 'button panel', 'switch']
+    
+    # common_classes = []
+    
+    # for key in keys:
+    #     keyword = key.split("__")[0].strip().replace("_", " ")
+        
+    #     # custom 
+    #     if keyword not in IC_root_objects and keyword not in common_classes:
+    #         common_classes.append(keyword)
+    
+    text_prompt = "door. cupboard. drawer. jar. bottle. bowl. chopsticks. zipper. smartphone. tablet. laptop. keyboard. toaster. pen. cutlery. knife. scissors. shoes. shirts. socks. nail clipper. book. document. toothpaste. toothbrush. clock. key. corner. closet. hair dryer. microwave. stove. toilet. bag. cord. sofa. chair. table. refrigerator. blinds"
+    
+    common_classes = text_prompt.split(". ")
+    return common_classes
+
 @app.route('/')
 def home():
     return render_template('index.html')
@@ -55,21 +77,22 @@ def main():
             os.makedirs(detected_object_path)
             
         # 1. GroundingDINO for common classes
-        classes = list(dictionary.keys())
+        # classes = list(dictionary.keys())
         
-        common_classes = []
+        # common_classes = []
         
-        for c in classes:
-            common_c = c.split("__")[0].strip()
-            common_c = common_c.replace("_", " ")
-            if common_c not in common_classes:
-                common_classes.append(common_c)
+        # for c in classes:
+        #     common_c = c.split("__")[0].strip()
+        #     common_c = common_c.replace("_", " ")
+        #     if common_c not in common_classes:
+        #         common_classes.append(common_c)
         
-        text_prompt = ". ".join(common_classes)
+        # text_prompt = ". ".join(common_classes)
+        common_classes = get_common_classes()
         
-        print(text_prompt)
+        print(common_classes)
             
-        objects = gd.run_grounding_dino(text_prompt=text_prompt, image_name=filename)
+        objects = gd.run_grounding_dino(common_classes=common_classes, image_name=filename)
         
         image = filename
 
