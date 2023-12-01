@@ -1,6 +1,6 @@
 1 button_panel__push_buttons
 2 button_panel__turn_handle
-3 electric_outlet__electric_outlet
+3 electric_outlet
 4 faucet__faucet_only
 5 faucet__handle_lever
 6 faucet__pull_tiny_knob

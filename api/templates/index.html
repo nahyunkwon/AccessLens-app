@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="static/assets/css/main.css" />
 		<link rel="stylesheet" href="static/assets/css/custom.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<noscript><link rel="stylesheet" href="static/static/assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -21,14 +22,14 @@
 				<!-- One -->
 					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
 						<div class="content">
-							<h1>AccessLens</h1>
-
+							<h1>AccessLens </h1>
+							
 							<p class="major">
 								Inspect barriers in indoor spaces and find 3D assistive designs to improve them!
+								<a id="myBtn">How to use?</a>
 
 							</p>
 							<ul class="actions stacked">
-								
 								
 								
 								<!-- <li><a href="{{ url_for('upload') }}" class="button big wide smooth-scroll-middle">Upload photo</a> </li> -->
@@ -65,6 +66,26 @@
 						</div>
 					</section> 
 
+
+
+				</div>
+
+				<!-- The Modal -->
+				<div id="myModal" class="modal">
+
+				<!-- Modal content -->
+				<div class="modal-content">
+					<span class="close">&times;</span>
+					<p>
+						<h3>Welcome to AccessLens!</h3>
+						On the home page, you have the option to either submit an image for AI detection or explore the Design Explorer — an extensive library of 3D augmentation designs organized by object categories. <br>
+						Upon submitting an image, you will be redirected to a new page displaying detected objects along with potential barriers. <br>
+						Click on a particular object to access suggested augmentation designs tailored for it. <br>
+						The suggested augmentation designs for each object are categorized by design types, each addressing a specific type of barrier.
+
+					</p>
+				</div>
+
 				</div>
 
 		<!-- Scripts -->
@@ -75,6 +96,33 @@
 			<script src="static/assets/js/breakpoints.min.js"></script>
 			<script src="static/assets/js/util.js"></script>
 			<script src="static/assets/js/main.js"></script>
+			<script>
+				// Get the modal
+				var modal = document.getElementById("myModal");
+
+				// Get the button that opens the modal
+				var btn = document.getElementById("myBtn");
+
+				// Get the <span> element that closes the modal
+				var span = document.getElementsByClassName("close")[0];
+
+				// When the user clicks on the button, open the modal
+				btn.onclick = function() {
+				modal.style.display = "block";
+				}
+
+				// When the user clicks on <span> (x), close the modal
+				span.onclick = function() {
+				modal.style.display = "none";
+				}
+
+				// When the user clicks anywhere outside of the modal, close it
+				window.onclick = function(event) {
+				if (event.target == modal) {
+					modal.style.display = "none";
+				}
+				}
+			</script>
 
 	</body>
 </html>

@@ -82,45 +82,72 @@ def add_images_to_coco(image_dir, coco_filename):
         json.dump(data, coco_file, indent = 4)
         
 
-def run_detectron_on_image(image_dir):
+def run_detectron_on_image(image_name):
+    
+    image_dir = './static/assets/images/input/'
+    # image_dir = ""
 
     cfg = set_cfg()
     
-    register_coco_instances("my_dataset_test", {}, os.path.join(image_dir, "my_dataset_test.json"), os.path.join(image_dir, 'images'))
+    dataset_name = "my_dataset_test"
+    
+    if dataset_name in DatasetCatalog.list():
+        DatasetCatalog.remove(dataset_name)
+    
+    register_coco_instances(dataset_name, {}, os.path.join("../detectron2", "my_dataset_test.json"), os.path.join(image_dir, image_name))
     
     cfg.MODEL.WEIGHTS = "../detectron2/model_0002799.pth"
-    cfg.DATASETS.TEST = ("my_dataset_test", )
+    cfg.DATASETS.TEST = (dataset_name, )
     cfg.MODEL.ROI_HEADS.SCORE_THRESH_TEST = 0.7   # set the testing threshold for this model
     predictor = DefaultPredictor(cfg)
     # test_metadata = MetadataCatalog.get("my_dataset_test")
     
-    with open(os.path.join('./case_study/labels.txt'), 'r') as f:
+    with open(os.path.join('../detectron2', 'labels.txt'), 'r') as f:
         classes = f.readlines()
     
     metadata = {"thing_classes": []}
     for c in classes:
         metadata["thing_classes"].append(c.split(" ")[-1].strip())
     
-    images = os.listdir(os.path.join(image_dir, 'images'))
+    # images = os.listdir(os.path.join(image_dir, 'images'))
 
-    for imageName in images:
-        im = cv2.imread(os.path.join(image_dir, 'images', imageName))
-        outputs = predictor(im)
-        print(outputs)
-        v = Visualizer(im[:, :, ::-1],
-                        metadata=metadata, 
-                        scale=0.8
-                        )
-        out = v.draw_instance_predictions(outputs["instances"].to("cpu"))
-        # print(out)
-        cv2.imwrite('./inference_output/' + imageName, out.get_image()[:, :, ::-1])
-        
+    # for imageName in images:
+    im = cv2.imread(os.path.join(image_dir, image_name))
+    outputs = predictor(im)
+    # print(outputs)
+    
+    # print('output instances ---- ')
+    
+    instances = outputs['instances']
+    # print(instances.pred_boxes[0].tensor.tolist()[0])
+    
+    pred_classes = instances.pred_classes.tolist()
+    
+    phrases = []
+    
+    for c in pred_classes:
+        phrases.append(classes[c].split(" ")[-1].strip())
+    
+    boxes = instances.pred_boxes.tensor.cpu().numpy()
+    logits = instances.scores.tolist()
+    
+    # print(boxes)
+    # print(logits)
+  
+    # v = Visualizer(im[:, :, ::-1],
+    #                 metadata=metadata, 
+    #                 scale=0.8
+    #                 )
+    # out = v.draw_instance_predictions(outputs["instances"].to("cpu"))
+    # print(out)
+    
+    # cv2.imwrite('./inference_output_dt/' + image_name, out.get_image()[:, :, ::-1])
+    
+    return boxes, torch.Tensor(logits), phrases
+    
 
 def main():
-    image_dir = './case_study'
-    # add_images_to_coco('./case_study', 'my_dataset_test.json')
-    test_image(image_dir)
-    
+    run_detectron_on_image()
     
 
 if __name__ == "__main__":

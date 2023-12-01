@@ -1,5 +1,11 @@
 /* load design explorer */
-
+var key_instruction = {
+    "actuation-operation": "Designs that enable using different body parts or motions to operate objects, simplifying the process (e.g., using elbows instead of palms).",
+    "actuation-reach": "Designs extending parts to access objects in inaccessible positions, assisting users in reaching items.",
+    "constraint": "Designs preventing specific groups from accessing or operating objects (e.g., cabinet locks), useful for cognitive impairments or child-proof products.",
+    "indication-visual": "Designs with clear visual cues aiding identification or function (e.g., labeled switches), particularly beneficial for those with sensory impairments.",
+    "indication-tactile": "Similar to Indication-Visual, offering tactile feedback for users with visual impairments, aiding in identifying purpose or function through touch."
+};
 
 /* Load object thumbnail (either representative or random instance if multiple occurence) */
 function load_object(object_name){
@@ -87,6 +93,7 @@ function update_suggestion(object){
             if(object_designs[key].length != 0){
                 var key_div = document.createElement('div');
                 key_div.innerHTML = "<h3>" + key + "</h3>";
+                key_div.innerHTML += key_instruction[key] + "<br>";
 
                 for(var j=0;j<object_designs[key].length;j++){
                     key_div.appendChild(load_design(object_designs[key][j])); // dict object

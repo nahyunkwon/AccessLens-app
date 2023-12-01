@@ -2,11 +2,19 @@
 /* Load image name */
 var urlParams = new URLSearchParams(window.location.search);
 // var image = urlParams.get('image');
-document.getElementById("myImg").src = "static/assets/images/input/" + image;
+document.getElementById("myImg").src = "static/assets/images/inference_output/" + image;
 
 console.log(dictionary);
 
 console.log(image);
+
+var key_instruction = {
+    "actuation-operation": "Designs that enable using different body parts or motions to operate objects, simplifying the process (e.g., using elbows instead of palms).",
+    "actuation-reach": "Designs extending parts to access objects in inaccessible positions, assisting users in reaching items.",
+    "constraint": "Designs preventing specific groups from accessing or operating objects (e.g., cabinet locks), useful for cognitive impairments or child-proof products.",
+    "indication-visual": "Designs with clear visual cues aiding identification or function (e.g., labeled switches), particularly beneficial for those with sensory impairments.",
+    "indication-tactile": "Similar to Indication-Visual, offering tactile feedback for users with visual impairments, aiding in identifying purpose or function through touch."
+};
 
 /* Load designs */
 function load_design(design_element){
@@ -51,6 +59,7 @@ function update_suggestion(object){
         suggestion_title.innerHTML = "<h2>" + object + "</h2>";
     }
 
+    
     while (suggestion.hasChildNodes()) {
         suggestion.removeChild(suggestion.lastChild);
     }
@@ -73,6 +82,7 @@ function update_suggestion(object){
             if(object_designs[key].length != 0){
                 var key_div = document.createElement('div');
                 key_div.innerHTML = "<h3>" + key + "</h3>";
+                key_div.innerHTML += key_instruction[key] + "<br>";
 
                 for(var j=0;j<object_designs[key].length;j++){
                     key_div.appendChild(load_design(object_designs[key][j])); // dict object
