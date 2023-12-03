@@ -83,18 +83,26 @@ def add_images_to_coco(image_dir, coco_filename):
         
 
 def run_detectron_on_image(image_name):
-    
-    image_dir = './static/assets/images/input/'
+    basedir = os.path.abspath(os.path.dirname(__file__))
+    # dictionary_file = os.path.join(basedir, 'static', 'assets', 'data', '3AD_dictionary.json')
+    # design_file = os.path.join(basedir, 'static/assets/data/3AD_design_info.json')
+
+    image_dir = os.path.join(basedir, 'static', 'assets', 'images', 'input')    
+    # image_dir = os.path.join('./static/assets/images/input/'
     # image_dir = ""
 
     cfg = set_cfg()
     
-    dataset_name = "my_dataset_test"
+    dataset_name = image_name.split(".")[0]
     
     if dataset_name in DatasetCatalog.list():
         DatasetCatalog.remove(dataset_name)
     
-    register_coco_instances(dataset_name, {}, os.path.join("../detectron2", "my_dataset_test.json"), os.path.join(image_dir, image_name))
+    try:
+        register_coco_instances(dataset_name, {}, os.path.join("../detectron2", dataset_name+".json"), os.path.join(image_dir, image_name))
+    except:
+        DatasetCatalog.remove(dataset_name)
+        register_coco_instances(dataset_name, {}, os.path.join("../detectron2", dataset_name+".json"), os.path.join(image_dir, image_name))
     
     cfg.MODEL.WEIGHTS = "../detectron2/model_0002799.pth"
     cfg.DATASETS.TEST = (dataset_name, )
@@ -142,6 +150,12 @@ def run_detectron_on_image(image_name):
     # print(out)
     
     # cv2.imwrite('./inference_output_dt/' + image_name, out.get_image()[:, :, ::-1])
+
+    try:
+        if dataset_name in DatasetCatalog.list():
+            DatasetCatalog.remove(dataset_name)
+    except:
+        pass
     
     return boxes, torch.Tensor(logits), phrases
     

@@ -107,10 +107,10 @@ def run_grounding_dino(common_classes, image_name='Olivia_2.png'):
     boxes = boxes * torch.Tensor([w, h, w, h])
     xyxy = box_convert(boxes=boxes, in_fmt="cxcywh", out_fmt="xyxy").numpy()
     
-    print('xyxy', xyxy)
-    print('xyxy type', type(xyxy))
-    print('xyxy[0] type', type(xyxy[0]))
-    print('xyxy shape', xyxy.shape)
+    # print('xyxy', xyxy)
+    # print('xyxy type', type(xyxy))
+    # print('xyxy[0] type', type(xyxy[0]))
+    # print('xyxy shape', xyxy.shape)
     
     keep_phrases = []
     keep_xyxy = []
@@ -151,10 +151,15 @@ def run_grounding_dino(common_classes, image_name='Olivia_2.png'):
     #     dt_ndarray.append(np.array(dt_box, dtype=np.float32))
     # dt_ndarray = np.array(dt_ndarray)
     # print('dt boxes', dt_boxes, type(dt_boxes), type(dt_boxes[0]), dt_boxes.shape)
-    keep_xyxy = np.append(keep_xyxy, dt_boxes, axis=0)
-    # keep_xyxy += dt_boxes
-    final_logits = torch.cat((keep_logits, dt_logits))
-    keep_phrases += dt_phrases
+    if len(keep_phrases) != 0:
+        keep_xyxy = np.append(keep_xyxy, dt_boxes, axis=0)
+        # keep_xyxy += dt_boxes
+        final_logits = torch.cat((keep_logits, dt_logits))
+        keep_phrases += dt_phrases
+    else:
+        keep_xyxy = dt_boxes
+        final_logits = dt_logits
+        keep_phrases = dt_phrases
     
     # print('keep_xyxy', keep_xyxy)
     
