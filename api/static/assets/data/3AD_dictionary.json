@@ -823,6 +823,12 @@
                 "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/assets/41/7e/42/2c/fa/large_display_74612e6b-c98f-49aa-b9a8-e112bb2d95d7.jpg",
                 "title": "2 Litre / Liter bottle handle / holder / grip so it's easier to carry them whether at the supermarket or at home.",
                 "note": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:2707972",
+                "image_url": "https://cdn.thingiverse.com/renders/28/37/d5/e6/41/c7937ab9e6d513e25b416bd9a4910604_preview_card.jpg",
+                "title": "[K] Support de bouteille (Bottle support)",
+                "note": ""
             }
         ],
         "actuation-reach": [
@@ -833,14 +839,7 @@
                 "note": ""
             }
         ],
-        "constraint": [
-            {
-                "design_url": "https://www.thingiverse.com/thing:2707972",
-                "image_url": "https://cdn.thingiverse.com/renders/28/37/d5/e6/41/c7937ab9e6d513e25b416bd9a4910604_preview_card.jpg",
-                "title": "[K] Support de bouteille (Bottle support)",
-                "note": ""
-            }
-        ],
+        "constraint": [],
         "indication-visual": [],
         "indication-tactile": []
     },
@@ -1061,6 +1060,12 @@
                 "image_url": "https://cdn.thingiverse.com/renders/c9/59/97/86/77/photo_preview_card.jpg",
                 "title": "Light Switch Extender for Young Kids - Mario Star",
                 "note": ""
+            },
+            {
+                "design_url": "https://www.thingiverse.com/thing:2792525",
+                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/renders/e9/e6/a9/63/42/71347f76a8e42baa86d76745d4771edd_display_large.jpg",
+                "title": "Child Light Switch Extender",
+                "note": ""
             }
         ],
         "constraint": [
@@ -1092,12 +1097,6 @@
                 "design_url": "https://www.thingiverse.com/thing:69806",
                 "image_url": "https://cdn.thingiverse.com/renders/56/04/dc/fd/af/IMG_20130404_162639_preview_card.jpg",
                 "title": "Light Switch Lock",
-                "note": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:2792525",
-                "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=95,width=976,height=500/https://cdn.thingiverse.com/renders/e9/e6/a9/63/42/71347f76a8e42baa86d76745d4771edd_display_large.jpg",
-                "title": "Child Light Switch Extender",
                 "note": ""
             }
         ],
@@ -1253,7 +1252,14 @@
         "indication-tactile": []
     },
     "switch__rocker_multi": {
-        "actuation-operation": [],
+        "actuation-operation": [
+            {
+                "design_url": "https://www.thingiverse.com/thing:5444424",
+                "image_url": "https://cdn.thingiverse.com/assets/db/c9/36/a1/68/card_preview_ac_outlet.jpeg",
+                "title": "AC Outlet wall/roof holder (European)",
+                "note": ""
+            }
+        ],
         "actuation-reach": [],
         "constraint": [
             {
@@ -1318,12 +1324,6 @@
                 "design_url": "https://www.thingiverse.com/thing:4088052",
                 "image_url": "https://cdn.thingiverse.com/assets/35/d1/5b/99/81/card_preview_P1290085_cropped.JPG",
                 "title": "Robust Power Strip Mount",
-                "note": ""
-            },
-            {
-                "design_url": "https://www.thingiverse.com/thing:5444424",
-                "image_url": "https://cdn.thingiverse.com/assets/db/c9/36/a1/68/card_preview_ac_outlet.jpeg",
-                "title": "AC Outlet wall/roof holder (European)",
                 "note": ""
             }
         ],
@@ -1452,11 +1452,7 @@
         "indication-tactile": []
     },
     "laptop": {
-        "actuation-operation": [],
-        "actuation-reach": [],
-        "constraint": [],
-        "indication-visual": [],
-        "indication-tactile": [
+        "actuation-operation": [
             {
                 "design_url": "https://www.thingiverse.com/thing:4074766",
                 "image_url": "https://cdn.thingiverse.com/assets/89/78/96/d3/11/card_preview_2019-08-27_10.02.32.jpg",
@@ -1475,7 +1471,11 @@
                 "title": "Carcasa para Mac Book Pro (Mac Book Pro Keyguard) by FUNDACION_ONCE - Thingiverse",
                 "note": ""
             }
-        ]
+        ],
+        "actuation-reach": [],
+        "constraint": [],
+        "indication-visual": [],
+        "indication-tactile": []
     },
     "keyboard": {
         "actuation-operation": [],
@@ -2151,8 +2151,7 @@
         "indication-tactile": []
     },
     "microwave": {
-        "actuation-operation": [],
-        "actuation-reach": [
+        "actuation-operation": [
             {
                 "design_url": "https://www.thingiverse.com/thing:642874",
                 "image_url": "https://img.thingiverse.com/cdn-cgi/image/fit=contain,quality=90,width=863,height=486/https://cdn.thingiverse.com/renders/88/f6/9f/14/6d/DSCN3662_display_large.JPG",
@@ -2160,6 +2159,7 @@
                 "note": ""
             }
         ],
+        "actuation-reach": [],
         "constraint": [],
         "indication-visual": [],
         "indication-tactile": []
