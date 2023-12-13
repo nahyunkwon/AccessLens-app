@@ -42,6 +42,7 @@ def get_common_classes():
     
     return '. '.join(common_classes)
 
+
 def main():
     print(get_common_classes())
     
